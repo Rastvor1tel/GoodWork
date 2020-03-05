@@ -1,3 +1,3 @@
 <?php
 
-CModule::IncludeModule("htc.twigintegration");
+\Bitrix\Main\Loader::includeModule("htc.twigintegrationmodule");

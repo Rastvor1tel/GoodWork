@@ -1,0 +1,10 @@
+<button class="header__burger js-burger"><span></span></button>
+{% if result|length > 0 %}
+	<div class="header__nav">
+		<nav class="header__nav_wrap">
+			{% for item in result %}
+				<a href="{{ item.LINK }}" class="header__nav_link">{{ item.TEXT }}</a>
+			{% endfor %}
+		</nav>
+	</div>
+{% endif %}

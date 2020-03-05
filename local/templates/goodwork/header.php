@@ -3,6 +3,7 @@
 <html lang="<?= LANGUAGE_ID ?>">
 <? include_once($_SERVER['DOCUMENT_ROOT'] . SITE_TEMPLATE_PATH . "/include/head.php"); ?>
 <body>
+<? $APPLICATION->ShowPanel(); ?>
 <header class="header">
 	<div class="container header__wrapper">
 		<a href="/" class="header__logo">
@@ -27,16 +28,23 @@
 				</div>
 				<button type="button" class="button button-transparent header__callback">Заказать звонок</button>
 			</div>
-			<button class="header__burger js-burger"><span></span></button>
-			<div class="header__nav">
-				<nav class="header__nav_wrap">
-					<a href="#" class="header__nav_link">О компании</a>
-					<a href="#" class="header__nav_link">каталог</a>
-					<a href="#" class="header__nav_link">услуги</a>
-					<a href="#" class="header__nav_link">наши работы</a>
-					<a href="#" class="header__nav_link">контакты</a>
-				</nav>
-			</div>
+			<? $APPLICATION->IncludeComponent(
+				"bitrix:menu",
+				"top",
+				[
+					"ROOT_MENU_TYPE"        => "main",
+					"MENU_CACHE_TYPE"       => "A",
+					"MENU_CACHE_TIME"       => "3600",
+					"MENU_CACHE_USE_GROUPS" => "Y",
+					"MENU_CACHE_GET_VARS"   => [
+					],
+					"MAX_LEVEL"             => "1",
+					"USE_EXT"               => "N",
+					"DELAY"                 => "N",
+					"ALLOW_MULTI_SELECT"    => "N"
+				],
+				false
+			); ?>
 		</div>
 	</div>
 </header>

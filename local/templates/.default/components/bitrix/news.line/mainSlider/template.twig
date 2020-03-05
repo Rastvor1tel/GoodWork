@@ -1,0 +1,23 @@
+{% if result.ITEMS|length > 0 %}
+	<section class="swiper-container banner">
+		<div class="swiper-wrapper banner__wrapper">
+			{% for item in result.ITEMS %}
+				<div class="swiper-slide banner__slide">
+					<div class="banner__slide_image"><img src="{{ item.PREVIEW_PICTURE.SRC }}" alt=""></div>
+					<div class="banner__slide_info">
+						<div class="container">
+							<div class="banner__slide_header">{{ item.NAME }}</div>
+							<div class="banner__slide_subheader h1">{{ item.PREVIEW_TEXT }}</div>
+							<div class="banner__slide_text">{{ item.DETAIL_TEXT }}</div>
+							<a href="{{ item.CODE }}" class="banner__slide_link button button-orange">{{ langMessages.more }}</a>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+		<div class="container banner__controls">
+			<div class="swiper-button-prev button button-control button-control-prev banner__control"><span class="icon icon-arrow"></span>{{ langMessages.backward }}</div>
+			<div class="swiper-button-next button button-control button-control-next banner__control">{{ langMessages.forward }}<span class=" icon icon-arrow"></span></div>
+		</div>
+	</section>
+{% endif %}

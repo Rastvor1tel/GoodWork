@@ -11,8 +11,12 @@ Asset::getInstance()->addString('<meta http-equiv="X-UA-Compatible" content="ie=
 Asset::getInstance()->addString('<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous"/>');
 
 $arJsConfig = [
+	"yandexmap"      => [
+		"js"        => "//api-maps.yandex.ru/2.1/?apikey=116bd1d7-b50e-4091-85e5-729db9e3ed7f&lang=ru_RU",
+		"skip_core" => true,
+	],
 	"swiper"         => [
-		"js"        => SITE_TEMPLATE_PATH . "/assets/css/swiper.min.css",
+		"js"        => SITE_TEMPLATE_PATH . "/assets/js/swiper.min.js",
 		"css"       => SITE_TEMPLATE_PATH . "/assets/css/swiper.min.css",
 		"skip_core" => true,
 	],
@@ -29,32 +33,27 @@ $arJsConfig = [
 	],
 	"bodyScrollLock" => [
 		"js"        => SITE_TEMPLATE_PATH . "/assets/js/bodyScrollLock.min.js",
-		"rel"       => ["jquery3"],
 		"skip_core" => true,
 	],
 	"app"            => [
-		"js"        => SITE_TEMPLATE_PATH . "/assets/js/jquery.maskedinput.js",
-		"rel"       => ["jquery3"],
+		"js"        => SITE_TEMPLATE_PATH . "/assets/js/app.js",
+		"rel"       => ["jquery3", "maskedinput", "yandexmap", "bodyScrollLock", "swiper"],
 		"skip_core" => true,
 	],
-	"script"            => [
-		"js"        => SITE_TEMPLATE_PATH . "/assets/js/jquery.maskedinput.js",
-		"rel"       => ["jquery3"],
-		"skip_core" => true,
+	"script"         => [
+		"js"        => SITE_TEMPLATE_PATH . "/assets/js/script.js",
+		"css"       => SITE_TEMPLATE_PATH . "/assets/css/style.css",
+		"rel"       => ["jquery3", "app"],
+		"skip_core" => false,
 	],
 ];
 foreach ($arJsConfig as $ext => $arExt) {
 	CJSCore::RegisterExt($ext, $arExt);
 }
 
-CJSCore::Init(['ajax', 'popup', 'window', 'svg4everybody', 'script']);
+CJSCore::Init(["script"]);
 ?>
 <head>
-	<? $APPLICATION->ShowHead(); ?>
 	<title><? $APPLICATION->ShowTitle(); ?></title>
-	
-	<link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/assets/css/style.css">
-	<script src="https://api-maps.yandex.ru/2.1/?apikey=116bd1d7-b50e-4091-85e5-729db9e3ed7f&lang=ru_RU" type="text/javascript"></script>
-	<script src="<?= SITE_TEMPLATE_PATH ?>/assets/js/app.js"></script>
-	<script src="<?= SITE_TEMPLATE_PATH ?>/assets/js/script.js"></script>
+	<? $APPLICATION->ShowHead(); ?>
 </head>

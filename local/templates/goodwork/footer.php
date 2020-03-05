@@ -4,7 +4,7 @@
 	<div class="footer__info">
 		<div class="container footer__info_wrapper">
 			<div class="footer__logo">
-				<img src="assets/images/logo.svg" alt="">
+				<img src="<?=SITE_TEMPLATE_PATH?>/assets/images/logo.svg" alt="">
 			</div>
 			<div class="footer__main">
 				<nav class="footer__nav">

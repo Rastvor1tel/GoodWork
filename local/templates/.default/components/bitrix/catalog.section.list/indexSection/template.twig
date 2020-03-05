@@ -1,0 +1,15 @@
+{% if result.SECTIONS|length > 0 %}
+	<section class="catalog">
+		<div class="container catalog__wrapper">
+			{% for item in result.SECTIONS %}
+				<div class="catalog__section">
+					<img class="catalog__section_image" src="{{ item.PICTURE.SRC }}" alt="">
+					<a href="{{ item.DETAIL_PAGE_URL }}" class="catalog__section_info">
+						<span class="catalog__section_name h3">{{ item.NAME }}</span>
+						<span class="catalog__section_readmore">{{ langMessages.more }}<span class="icon icon-arrow"></span></span>
+					</a>
+				</div>
+			{% endfor %}
+		</div>
+	</section>
+{% endif %}

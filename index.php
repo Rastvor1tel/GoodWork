@@ -1,114 +1,73 @@
-<?
+<?php
 require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
 $APPLICATION->SetTitle('Главная');
+
+$APPLICATION->IncludeComponent("bitrix:news.line", "mainSlider", [
+		"IBLOCK_TYPE"        => "content",
+		"IBLOCKS"            => ["2"],
+		"NEWS_COUNT"         => "20",
+		"FIELD_CODE"         => ["ID", "CODE", "NAME", "PREVIEW_TEXT", "DETAIL_TEXT", "PREVIEW_PICTURE"],
+		"SORT_BY1"           => "SORT",
+		"SORT_ORDER1"        => "ASC",
+		"SORT_BY2"           => "ID",
+		"SORT_ORDER2"        => "ASC",
+		"DETAIL_URL"         => "",
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"CACHE_TYPE"         => "A",
+		"CACHE_TIME"         => "300",
+		"CACHE_GROUPS"       => "Y"
+	]
+);
+
+$APPLICATION->IncludeComponent(
+	"bitrix:catalog.section.list",
+	"indexSection",
+	[
+		"IBLOCK_TYPE"         => "catalog",
+		"IBLOCK_ID"           => "1",
+		"COUNT_ELEMENTS"      => "N",
+		"TOP_DEPTH"           => "1",
+		"FILTER_NAME"         => "sectionsFilter",
+		"SHOW_PARENT_NAME"    => "Y",
+		"SECTION_URL"         => "",
+		"CACHE_TYPE"          => "A",
+		"CACHE_TIME"          => "36000000",
+		"CACHE_GROUPS"        => "Y",
+		"CACHE_FILTER"        => "N",
+		"ADD_SECTIONS_CHAIN"  => "N"
+	]
+);
 ?>
-	<section class="swiper-container banner">
-		<div class="swiper-wrapper banner__wrapper">
-			<div class="swiper-slide banner__slide">
-				<div class="banner__slide_image"><img src="<?=SITE_TEMPLATE_PATH?>/assets/images/slide1.png" alt=""></div>
-				<div class="banner__slide_info">
-					<div class="container">
-						<div class="banner__slide_header">Good Work</div>
-						<div class="banner__slide_subheader h1">запускает свою программу лояльности «Good Work Club»,</div>
-						<div class="banner__slide_text">которая дает привилегии и бонусы всем обладателям дисконтной карты «Good&nbsp;Work&nbsp;Club»</div>
-						<a href="#" class="banner__slide_link button button-orange">Узнать подробнее</a>
-					</div>
-				</div>
-			</div>
-			<div class="swiper-slide banner__slide">
-				<div class="banner__slide_image"><img src="<?=SITE_TEMPLATE_PATH?>/assets/images/slide1.png" alt=""></div>
-				<div class="banner__slide_info">
-					<div class="container">
-						<div class="banner__slide_header">Good Work</div>
-						<div class="banner__slide_subheader h1">запускает свою программу лояльности «Good Work Club»,</div>
-						<div class="banner__slide_text">которая дает привилегии и бонусы всем обладателям дисконтной карты «Good&nbsp;Work&nbsp;Club»</div>
-						<a href="#" class="banner__slide_link button button-orange">Узнать подробнее</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container banner__controls">
-			<div class="swiper-button-prev button button-control button-control-prev banner__control">
-				<span class="icon icon-arrow"></span>Назад
-			</div>
-			<div class="swiper-button-next button button-control button-control-next banner__control">Вперед<span class=" icon icon-arrow"></span>
-			</div>
-		</div>
-	</section>
-	<section class="catalog">
-		<div class="container catalog__wrapper">
-			<div class="catalog__section">
-				<img class="catalog__section_image" src="<?=SITE_TEMPLATE_PATH?>/assets/images/catalog-index1.png" alt="">
-				<a href="#" class="catalog__section_info">
-					<span class="catalog__section_name h3">кровельные материалы</span>
-					<span class="catalog__section_readmore">подробнее<span class="icon icon-arrow"></span></span>
-				</a>
-			</div>
-			<div class="catalog__section">
-				<img class="catalog__section_image" src="<?=SITE_TEMPLATE_PATH?>/assets/images/catalog-index2.png" alt="">
-				<a href="#" class="catalog__section_info">
-					<span class="catalog__section_name h3">фальцевая кровля</span>
-					<span class="catalog__section_readmore">подробнее<span class="icon icon-arrow"></span></span>
-				</a>
-			</div>
-			<div class="catalog__section">
-				<img class="catalog__section_image" src="<?=SITE_TEMPLATE_PATH?>/assets/images/catalog-index3.png" alt="">
-				<a href="#" class="catalog__section_info">
-					<span class="catalog__section_name h3">элементы безопасности кровли</span>
-					<span class="catalog__section_readmore">подробнее<span class="icon icon-arrow"></span></span>
-				</a>
-			</div>
-			<div class="catalog__section">
-				<img class="catalog__section_image" src="<?=SITE_TEMPLATE_PATH?>/assets/images/catalog-index4.png" alt="">
-				<a href="#" class="catalog__section_info">
-					<span class="catalog__section_name h3">Водосточные системы</span>
-					<span class="catalog__section_readmore">подробнее<span class="icon icon-arrow"></span></span>
-				</a>
-			</div>
-			<div class="catalog__section">
-				<img class="catalog__section_image" src="<?=SITE_TEMPLATE_PATH?>/assets/images/catalog-index5.png" alt="">
-				<a href="#" class="catalog__section_info">
-					<span class="catalog__section_name h3">софиты</span>
-					<span class="catalog__section_readmore">подробнее<span class="icon icon-arrow"></span></span>
-				</a>
-			</div>
-			<div class="catalog__section">
-				<img class="catalog__section_image" src="<?=SITE_TEMPLATE_PATH?>/assets/images/catalog-index6.png" alt="">
-				<a href="#" class="catalog__section_info">
-					<span class="catalog__section_name h3">сайдинг</span>
-					<span class="catalog__section_readmore">подробнее<span class="icon icon-arrow"></span></span>
-				</a>
-			</div>
-		</div>
-	</section>
+	
+	
 	<section class="services">
 		<div class="container">
 			<div class="h1 services__header">услуги good work</div>
 			<div class="services__text">Мы команда профессионалов, эксперт в области строительства, проектирования и реконструкции кровли</div>
 			<div class="services__wrapper">
 				<div class="services__item">
-					<img class="services__item_image" src="<?=SITE_TEMPLATE_PATH?>/assets/images/service-index1.png" alt="">
+					<img class="services__item_image" src="<?= SITE_TEMPLATE_PATH ?>/assets/images/service-index1.png" alt="">
 					<a href="#" class="services__item_info">
 						<span class="services__item_icon icon icon-roof"></span>
 						<span class="h3 services__item_name">кровельные работы</span>
 					</a>
 				</div>
 				<div class="services__item">
-					<img class="services__item_image" src="<?=SITE_TEMPLATE_PATH?>/assets/images/service-index2.png" alt="">
+					<img class="services__item_image" src="<?= SITE_TEMPLATE_PATH ?>/assets/images/service-index2.png" alt="">
 					<a href="#" class="services__item_info">
 						<span class="services__item_icon icon icon-project"></span>
 						<span class="h3 services__item_name">проектирование</span>
 					</a>
 				</div>
 				<div class="services__item">
-					<img class="services__item_image" src="<?=SITE_TEMPLATE_PATH?>/assets/images/service-index3.png" alt="">
+					<img class="services__item_image" src="<?= SITE_TEMPLATE_PATH ?>/assets/images/service-index3.png" alt="">
 					<a href="#" class="services__item_info">
 						<span class="services__item_icon icon icon-facade"></span>
 						<span class="h3 services__item_name">фасадные работы</span>
 					</a>
 				</div>
 				<div class="services__item">
-					<img class="services__item_image" src="<?=SITE_TEMPLATE_PATH?>/assets/images/service-index4.png" alt="">
+					<img class="services__item_image" src="<?= SITE_TEMPLATE_PATH ?>/assets/images/service-index4.png" alt="">
 					<a href="#" class="services__item_info">
 						<span class="services__item_icon icon icon-examination"></span>
 						<span class="h3 services__item_name">обследование кровли</span>
@@ -137,7 +96,7 @@ $APPLICATION->SetTitle('Главная');
 				</div>
 			</div>
 			<div class="about__image">
-				<img src="<?=SITE_TEMPLATE_PATH?>/assets/images/goodwork-bg.png" alt="">
+				<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/goodwork-bg.png" alt="">
 			</div>
 			<div class="about__advantages">
 				<div class="about__advantages_item">
@@ -175,7 +134,7 @@ $APPLICATION->SetTitle('Главная');
 				<div class="swiper-wrapper">
 					<div class="swiper-slide works__slider_item">
 						<div class="works__slider_image">
-							<img src="<?=SITE_TEMPLATE_PATH?>/assets/images/works-index.png" alt="">
+							<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/works-index.png" alt="">
 						</div>
 						<div class="works__slider_info">
 							<div class="works__slider_name h2">Кровля из керамической черепицы Jacobi</div>
@@ -205,7 +164,7 @@ $APPLICATION->SetTitle('Главная');
 					</div>
 					<div class="swiper-slide works__slider_item">
 						<div class="works__slider_image">
-							<img src="<?=SITE_TEMPLATE_PATH?>/assets/images/works-index.png" alt="">
+							<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/works-index.png" alt="">
 						</div>
 						<div class="works__slider_info">
 							<div class="works__slider_name h2">Кровля из керамической черепицы Jacobi</div>
@@ -260,7 +219,7 @@ $APPLICATION->SetTitle('Главная');
 						<a href="#" class="reviews__slider_link button button-readmore">подробнее<span class="icon icon-arrow"></span></a>
 					</div>
 					<div class="reviews__slider_item swiper-slide">
-						<a href="<?=SITE_TEMPLATE_PATH?>/assets/images/reviews-thumb.png" data-fancybox class="reviews__slider_image"><img src="<?=SITE_TEMPLATE_PATH?>/assets/images/reviews-thumb.png" alt=""></a>
+						<a href="<?= SITE_TEMPLATE_PATH ?>/assets/images/reviews-thumb.png" data-fancybox class="reviews__slider_image"><img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/reviews-thumb.png" alt=""></a>
 						<div class="reviews__slider_info">
 							<div class="reviews__slider_header">
 								<div class="reviews__slider_name h4">ООО “Кровля”</div>
@@ -297,22 +256,22 @@ $APPLICATION->SetTitle('Главная');
 			<div class="partners__slider swiper-container">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide partners__slider_item">
-						<img src="<?=SITE_TEMPLATE_PATH?>/assets/images/logo1.png" alt="BMI Braas">
+						<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo1.png" alt="BMI Braas">
 					</div>
 					<div class="swiper-slide partners__slider_item">
-						<img src="<?=SITE_TEMPLATE_PATH?>/assets/images/logo2.png" alt="Grand Line">
+						<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo2.png" alt="Grand Line">
 					</div>
 					<div class="swiper-slide partners__slider_item">
-						<img src="<?=SITE_TEMPLATE_PATH?>/assets/images/logo3.png" alt="Металл Профиль">
+						<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo3.png" alt="Металл Профиль">
 					</div>
 					<div class="swiper-slide partners__slider_item">
-						<img src="<?=SITE_TEMPLATE_PATH?>/assets/images/logo4.png" alt="Rockwool">
+						<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo4.png" alt="Rockwool">
 					</div>
 					<div class="swiper-slide partners__slider_item">
-						<img src="<?=SITE_TEMPLATE_PATH?>/assets/images/logo5.png" alt="Dorken">
+						<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo5.png" alt="Dorken">
 					</div>
 					<div class="swiper-slide partners__slider_item">
-						<img src="<?=SITE_TEMPLATE_PATH?>/assets/images/logo6.png" alt="Tegola Moldova">
+						<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo6.png" alt="Tegola Moldova">
 					</div>
 				</div>
 			</div>
