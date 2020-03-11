@@ -9,15 +9,25 @@
 							<div class="banner__slide_header">{{ item.NAME }}</div>
 							<div class="banner__slide_subheader h1">{{ item.PREVIEW_TEXT }}</div>
 							<div class="banner__slide_text">{{ item.DETAIL_TEXT }}</div>
-							<a href="{{ item.CODE }}" class="banner__slide_link button button-orange">{{ langMessages.more }}</a>
+							{% if  item.PROPERTIES.BANNER_LINK.VALUE %}
+								<a href="{{ item.PROPERTIES.BANNER_LINK.VALUE }}" class="banner__slide_link button button-orange">
+									{{ langMessages.more }}
+								</a>
+							{% endif %}
 						</div>
 					</div>
 				</div>
 			{% endfor %}
 		</div>
 		<div class="container banner__controls">
-			<div class="swiper-button-prev button button-control button-control-prev banner__control"><span class="icon icon-arrow"></span>{{ langMessages.backward }}</div>
-			<div class="swiper-button-next button button-control button-control-next banner__control">{{ langMessages.forward }}<span class=" icon icon-arrow"></span></div>
+			<div class="swiper-button-prev button button-control button-control-prev banner__control">
+				<span class="icon icon-arrow"></span>
+				{{ langMessages.backward }}
+			</div>
+			<div class="swiper-button-next button button-control button-control-next banner__control">
+				{{ langMessages.forward }}
+				<span class=" icon icon-arrow"></span>
+			</div>
 		</div>
 	</section>
 {% endif %}

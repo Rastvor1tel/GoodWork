@@ -4,7 +4,7 @@
 	<div class="footer__info">
 		<div class="container footer__info_wrapper">
 			<div class="footer__logo">
-				<img src="<?=SITE_TEMPLATE_PATH?>/assets/images/logo.svg" alt="">
+				<img src="assets/images/logo.svg" alt="">
 			</div>
 			<div class="footer__main">
 				<nav class="footer__nav">
@@ -37,7 +37,7 @@
 	</div>
 </footer>
 <div class="button button-scroller js-scroll-up">
-	<img src="<?=SITE_TEMPLATE_PATH?>/assets/images/slideup.svg" alt="">
+	<img src="/assets/images/slideup.svg" alt="">
 	<span class="icon icon-arrow"></span></div>
 <div class="overlay"></div>
 </body>

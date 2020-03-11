@@ -3,22 +3,37 @@ require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
 $APPLICATION->SetTitle('Главная');
 
 $APPLICATION->IncludeComponent(
-	"bitrix:news.line",
+	"bitrix:news.list",
 	"mainSlider",
 	[
-		"IBLOCK_TYPE"        => "content",
-		"IBLOCKS"            => [2],
-		"NEWS_COUNT"         => 20,
-		"FIELD_CODE"         => ["ID", "CODE", "NAME", "PREVIEW_TEXT", "DETAIL_TEXT", "PREVIEW_PICTURE"],
-		"SORT_BY1"           => "SORT",
-		"SORT_ORDER1"        => "ASC",
-		"SORT_BY2"           => "ID",
-		"SORT_ORDER2"        => "ASC",
-		"DETAIL_URL"         => "",
-		"ACTIVE_DATE_FORMAT" => "d.m.Y",
-		"CACHE_TYPE"         => "A",
-		"CACHE_TIME"         => "300",
-		"CACHE_GROUPS"       => "Y"
+		"IBLOCK_TYPE"               => "services",
+		"IBLOCK_ID"                 => 2,
+		"NEWS_COUNT"                => 20,
+		"SORT_BY1"                  => "SORT",
+		"SORT_ORDER1"               => "ASC",
+		"SORT_BY2"                  => "ID",
+		"SORT_ORDER2"               => "ASC",
+		"FILTER_NAME"               => "",
+		"FIELD_CODE"                => ["ID", "NAME", "PREVIEW_TEXT", "DETAIL_TEXT", "PREVIEW_PICTURE"],
+		"PROPERTY_CODE"             => ["BANNER_LINK"],
+		"CACHE_TYPE"                => "A",
+		"CACHE_TIME"                => "36000000",
+		"CACHE_FILTER"              => "N",
+		"CACHE_GROUPS"              => "Y",
+		"PREVIEW_TRUNCATE_LEN"      => "",
+		"ACTIVE_DATE_FORMAT"        => "d.m.Y",
+		"SET_TITLE"                 => "N",
+		"SET_BROWSER_TITLE"         => "N",
+		"SET_META_KEYWORDS"         => "N",
+		"SET_META_DESCRIPTION"      => "N",
+		"SET_LAST_MODIFIED"         => "N",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+		"ADD_SECTIONS_CHAIN"        => "N",
+		"DISPLAY_TOP_PAGER"         => "N",
+		"DISPLAY_BOTTOM_PAGER"      => "N",
+		"SET_STATUS_404"            => "N",
+		"SHOW_404"                  => "N",
+		"MESSAGE_404"               => ""
 	]
 );
 
@@ -45,133 +60,56 @@ $APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"indexServices",
 	[
-		"COMPONENT_TEMPLATE"              => "indexServices",
-		"IBLOCK_TYPE"                     => "services",
-		"IBLOCK_ID"                       => 3,
-		"NEWS_COUNT"                      => 4,
-		"SORT_BY1"                        => "SORT",
-		"SORT_ORDER1"                     => "ASC",
-		"SORT_BY2"                        => "ID",
-		"SORT_ORDER2"                     => "ASC",
-		"FILTER_NAME"                     => "",
-		"FIELD_CODE"                      => [
-			0 => "NAME",
-			1 => "PREVIEW_PICTURE",
-			2 => "",
-		],
-		"PROPERTY_CODE"                   => [
-			0 => "ICON_CLASS",
-			1 => "",
-		],
-		"CACHE_TYPE"                      => "A",
-		"CACHE_TIME"                      => "36000000",
-		"CACHE_FILTER"                    => "N",
-		"CACHE_GROUPS"                    => "Y",
-		"PREVIEW_TRUNCATE_LEN"            => "",
-		"ACTIVE_DATE_FORMAT"              => "d.m.Y",
-		"SET_TITLE"                       => "N",
-		"SET_BROWSER_TITLE"               => "N",
-		"SET_META_KEYWORDS"               => "N",
-		"SET_META_DESCRIPTION"            => "N",
-		"SET_LAST_MODIFIED"               => "N",
-		"INCLUDE_IBLOCK_INTO_CHAIN"       => "N",
-		"ADD_SECTIONS_CHAIN"              => "N",
-		"DISPLAY_TOP_PAGER"               => "N",
-		"DISPLAY_BOTTOM_PAGER"            => "N",
-		"SET_STATUS_404"                  => "N",
-		"SHOW_404"                        => "N",
-		"MESSAGE_404"                     => ""
+		"IBLOCK_TYPE"               => "services",
+		"IBLOCK_ID"                 => 3,
+		"NEWS_COUNT"                => 4,
+		"SORT_BY1"                  => "SORT",
+		"SORT_ORDER1"               => "ASC",
+		"SORT_BY2"                  => "ID",
+		"SORT_ORDER2"               => "ASC",
+		"FILTER_NAME"               => "",
+		"FIELD_CODE"                => ["NAME", "PREVIEW_PICTURE"],
+		"PROPERTY_CODE"             => ["ICON_CLASS"],
+		"CACHE_TYPE"                => "A",
+		"CACHE_TIME"                => "36000000",
+		"CACHE_FILTER"              => "N",
+		"CACHE_GROUPS"              => "Y",
+		"PREVIEW_TRUNCATE_LEN"      => "",
+		"ACTIVE_DATE_FORMAT"        => "d.m.Y",
+		"SET_TITLE"                 => "N",
+		"SET_BROWSER_TITLE"         => "N",
+		"SET_META_KEYWORDS"         => "N",
+		"SET_META_DESCRIPTION"      => "N",
+		"SET_LAST_MODIFIED"         => "N",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+		"ADD_SECTIONS_CHAIN"        => "N",
+		"DISPLAY_TOP_PAGER"         => "N",
+		"DISPLAY_BOTTOM_PAGER"      => "N",
+		"SET_STATUS_404"            => "N",
+		"SHOW_404"                  => "N",
+		"MESSAGE_404"               => ""
+	]
+);
+
+$APPLICATION->IncludeComponent(
+	"bitrix:news.line",
+	"indexAbout",
+	[
+		"IBLOCK_TYPE"        => "content",
+		"IBLOCKS"            => [4],
+		"NEWS_COUNT"         => 6,
+		"FIELD_CODE"         => ["CODE", "NAME"],
+		"SORT_BY1"           => "SORT",
+		"SORT_ORDER1"        => "ASC",
+		"SORT_BY2"           => "ID",
+		"SORT_ORDER2"        => "ASC",
+		"CACHE_TYPE"         => "A",
+		"CACHE_TIME"         => "300",
+		"CACHE_GROUPS"       => "Y"
 	]
 );
 ?>
-
-
-	<section class="services">
-		<div class="container">
-			<div class="h1 services__header">услуги good work</div>
-			<div class="services__text">Мы команда профессионалов, эксперт в области строительства, проектирования и реконструкции кровли</div>
-			<div class="services__wrapper">
-				<div class="services__item">
-					<img class="services__item_image" src="<?= SITE_TEMPLATE_PATH ?>/assets/images/service-index1.png" alt="">
-					<a href="#" class="services__item_info">
-						<span class="services__item_icon icon icon-roof"></span>
-						<span class="h3 services__item_name">кровельные работы</span>
-					</a>
-				</div>
-				<div class="services__item">
-					<img class="services__item_image" src="<?= SITE_TEMPLATE_PATH ?>/assets/images/service-index2.png" alt="">
-					<a href="#" class="services__item_info">
-						<span class="services__item_icon icon icon-project"></span>
-						<span class="h3 services__item_name">проектирование</span>
-					</a>
-				</div>
-				<div class="services__item">
-					<img class="services__item_image" src="<?= SITE_TEMPLATE_PATH ?>/assets/images/service-index3.png" alt="">
-					<a href="#" class="services__item_info">
-						<span class="services__item_icon icon icon-facade"></span>
-						<span class="h3 services__item_name">фасадные работы</span>
-					</a>
-				</div>
-				<div class="services__item">
-					<img class="services__item_image" src="<?= SITE_TEMPLATE_PATH ?>/assets/images/service-index4.png" alt="">
-					<a href="#" class="services__item_info">
-						<span class="services__item_icon icon icon-examination"></span>
-						<span class="h3 services__item_name">обследование кровли</span>
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="about">
-		<div class="container about__wrapper">
-			<div class="about__info">
-				<div class="h1 about__info_header">О компании</div>
-				<div class="about__info_text">
-					<p>
-						<b>GOODWORK</b> - успешная компания в области проектирования, строительства и реконструкции кровли и фасадов на объектах капитального строительства с использованием самых эффективных строительных технологий.
-					</p>
-					<p>
-						<b>GOODWORK</b> стала первой компанией, которая всерьез поставила задачу познакомить своих Заказчиков, их друзей и знакомых с культурой и качеством строительства. Мы подошли к этому вопросу профессионально.
-					</p>
-					<p>
-						<b>В GOODWORK</b> знают о кровельных и фасадных материалах всё: исходное сырье, технические характеристики, где и на каком оборудовании были произведены; как хранятся и доставляются на объект.
-					</p>
-					<p>
-						<b>GOODWORK</b> считает, что строительство кровли — это самая ХОРОШАЯ РАБОТА, которую нужно развивать. Наши специалисты и технологи объездили всю Россию и Европу в поисках лучших технических решений и технологий.
-					</p>
-				</div>
-			</div>
-			<div class="about__image">
-				<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/goodwork-bg.png" alt="">
-			</div>
-			<div class="about__advantages">
-				<div class="about__advantages_item">
-					<span class="about__advantages_icon icon icon-experience"></span>
-					<span class="h4 about__advantages_name">Опыт работы более 8 лет</span>
-				</div>
-				<div class="about__advantages_item">
-					<span class="about__advantages_icon icon icon-teaching"></span>
-					<span class="h4 about__advantages_name">Обучение и тестирование сотрудников до начала работы</span>
-				</div>
-				<div class="about__advantages_item">
-					<span class="about__advantages_icon icon icon-warranty"></span>
-					<span class="h4 about__advantages_name">Гарантия 3-5 лет</span>
-				</div>
-				<div class="about__advantages_item">
-					<span class="about__advantages_icon icon icon-plan"></span>
-					<span class="h4 about__advantages_name">Собственный проектный отдел</span>
-				</div>
-				<div class="about__advantages_item">
-					<span class="about__advantages_icon icon icon-houses"></span>
-					<span class="h4 about__advantages_name">Более 300 реализованных проектов</span>
-				</div>
-				<div class="about__advantages_item">
-					<span class="about__advantages_icon icon icon-checklists"></span>
-					<span class="h4 about__advantages_name">Проверка всех операций по чек-листам качества</span>
-				</div>
-			</div>
-		</div>
-	</section>
+	
 	<section class="works">
 		<div class="container works__wrapper">
 			<div class="h1 works__header">наши работы</div>

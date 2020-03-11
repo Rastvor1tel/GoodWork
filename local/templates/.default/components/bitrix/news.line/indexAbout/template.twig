@@ -1,0 +1,23 @@
+<section class="about">
+	<div class="container about__wrapper">
+		<div class="about__info">
+			<div class="h1 about__info_header">{{ langMessages.aboutTitle }}</div>
+			<div class="about__info_text">
+				{{ includeFile(SITE_TEMPLATE_PATH~"/include/content/indexAbout.php") }}
+			</div>
+		</div>
+		<div class="about__image">
+			<img src="{{ SITE_TEMPLATE_PATH~"/assets/images/goodwork-bg.png" }}" alt="">
+		</div>
+		{% if result.ITEMS|length > 0 %}
+			<div class="about__advantages">
+				{% for item in result.ITEMS %}
+					<div class="about__advantages_item">
+						<span class="about__advantages_icon icon icon-{{ item.CODE }}"></span>
+						<span class="h4 about__advantages_name">{{ item.NAME }}</span>
+					</div>
+				{% endfor %}
+			</div>
+		{% endif %}
+	</div>
+</section>

@@ -1,7 +1,7 @@
 <? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die(); ?>
 <!doctype html>
 <html lang="<?= LANGUAGE_ID ?>">
-<? include_once($_SERVER['DOCUMENT_ROOT'] . SITE_TEMPLATE_PATH . "/include/head.php"); ?>
+<? include_once($_SERVER['DOCUMENT_ROOT'] . SITE_TEMPLATE_PATH . "/include/template/head.php"); ?>
 <body>
 <? $APPLICATION->ShowPanel(); ?>
 <header class="header">

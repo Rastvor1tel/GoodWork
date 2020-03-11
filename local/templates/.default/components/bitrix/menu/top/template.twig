@@ -3,7 +3,9 @@
 	<div class="header__nav">
 		<nav class="header__nav_wrap">
 			{% for item in result %}
-				<a href="{{ item.LINK }}" class="header__nav_link">{{ item.TEXT }}</a>
+				<div class="header__nav_item">
+					<a href="{{ item.LINK }}" class="header__nav_link">{{ item.TEXT }}</a>
+				</div>
 			{% endfor %}
 		</nav>
 	</div>

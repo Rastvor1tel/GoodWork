@@ -1,19 +1,19 @@
-<section class="services">
-	<div class="container">
-		<div class="h1 services__header">услуги good work</div>
-		<div class="services__text">Мы команда профессионалов, эксперт в области строительства, проектирования и реконструкции кровли</div>
-		{% if services.index|length > 0 %}
+{% if result.ITEMS|length > 0 %}
+	<section class="services">
+		<div class="container">
+			<div class="h1 services__header">{{ langMessages.serviceTitle }}</div>
+			<div class="services__text">{{ includeFile(SITE_TEMPLATE_PATH~"/include/content/indexServiceText.php") }}</div>
 			<div class="services__wrapper">
-				{% for item in services.index %}
+				{% for item in result.ITEMS %}
 					<div class="services__item">
-						<img class="services__item_image" src="{{ item.image }}" alt="">
-						<a href="{{ item.link }}" class="services__item_info">
-							<span class="services__item_icon icon icon-{{ item.icon }}"></span>
-							<span class="h3 services__item_name">{{ item.name }}</span>
+						<img class="services__item_image" src="{{ item.PREVIEW_PICTURE.SRC }}" alt="">
+						<a href="{{ item.DETAIL_PAGE_URL }}" class="services__item_info">
+							<span class="services__item_icon icon icon-{{ item.PROPERTIES.ICON_CLASS.VALUE }}"></span>
+							<span class="h3 services__item_name">{{ item.NAME }}</span>
 						</a>
 					</div>
 				{% endfor %}
 			</div>
-		{% endif %}
-	</div>
-</section>
+		</div>
+	</section>
+{% endif %}
