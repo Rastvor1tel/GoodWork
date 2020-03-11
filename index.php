@@ -2,10 +2,13 @@
 require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
 $APPLICATION->SetTitle('Главная');
 
-$APPLICATION->IncludeComponent("bitrix:news.line", "mainSlider", [
+$APPLICATION->IncludeComponent(
+	"bitrix:news.line",
+	"mainSlider",
+	[
 		"IBLOCK_TYPE"        => "content",
-		"IBLOCKS"            => ["2"],
-		"NEWS_COUNT"         => "20",
+		"IBLOCKS"            => [2],
+		"NEWS_COUNT"         => 20,
 		"FIELD_CODE"         => ["ID", "CODE", "NAME", "PREVIEW_TEXT", "DETAIL_TEXT", "PREVIEW_PICTURE"],
 		"SORT_BY1"           => "SORT",
 		"SORT_ORDER1"        => "ASC",
@@ -23,23 +26,66 @@ $APPLICATION->IncludeComponent(
 	"bitrix:catalog.section.list",
 	"indexSection",
 	[
-		"IBLOCK_TYPE"         => "catalog",
-		"IBLOCK_ID"           => "1",
-		"COUNT_ELEMENTS"      => "N",
-		"TOP_DEPTH"           => "1",
-		"FILTER_NAME"         => "sectionsFilter",
-		"SHOW_PARENT_NAME"    => "Y",
-		"SECTION_URL"         => "",
-		"CACHE_TYPE"          => "A",
-		"CACHE_TIME"          => "36000000",
-		"CACHE_GROUPS"        => "Y",
-		"CACHE_FILTER"        => "N",
-		"ADD_SECTIONS_CHAIN"  => "N"
+		"IBLOCK_TYPE"        => "catalog",
+		"IBLOCK_ID"          => 1,
+		"COUNT_ELEMENTS"     => "N",
+		"TOP_DEPTH"          => 1,
+		"FILTER_NAME"        => "sectionsFilter",
+		"SHOW_PARENT_NAME"   => "Y",
+		"SECTION_URL"        => "",
+		"CACHE_TYPE"         => "A",
+		"CACHE_TIME"         => "36000000",
+		"CACHE_GROUPS"       => "Y",
+		"CACHE_FILTER"       => "N",
+		"ADD_SECTIONS_CHAIN" => "N"
+	]
+);
+
+$APPLICATION->IncludeComponent(
+	"bitrix:news.list",
+	"indexServices",
+	[
+		"COMPONENT_TEMPLATE"              => "indexServices",
+		"IBLOCK_TYPE"                     => "services",
+		"IBLOCK_ID"                       => 3,
+		"NEWS_COUNT"                      => 4,
+		"SORT_BY1"                        => "SORT",
+		"SORT_ORDER1"                     => "ASC",
+		"SORT_BY2"                        => "ID",
+		"SORT_ORDER2"                     => "ASC",
+		"FILTER_NAME"                     => "",
+		"FIELD_CODE"                      => [
+			0 => "NAME",
+			1 => "PREVIEW_PICTURE",
+			2 => "",
+		],
+		"PROPERTY_CODE"                   => [
+			0 => "ICON_CLASS",
+			1 => "",
+		],
+		"CACHE_TYPE"                      => "A",
+		"CACHE_TIME"                      => "36000000",
+		"CACHE_FILTER"                    => "N",
+		"CACHE_GROUPS"                    => "Y",
+		"PREVIEW_TRUNCATE_LEN"            => "",
+		"ACTIVE_DATE_FORMAT"              => "d.m.Y",
+		"SET_TITLE"                       => "N",
+		"SET_BROWSER_TITLE"               => "N",
+		"SET_META_KEYWORDS"               => "N",
+		"SET_META_DESCRIPTION"            => "N",
+		"SET_LAST_MODIFIED"               => "N",
+		"INCLUDE_IBLOCK_INTO_CHAIN"       => "N",
+		"ADD_SECTIONS_CHAIN"              => "N",
+		"DISPLAY_TOP_PAGER"               => "N",
+		"DISPLAY_BOTTOM_PAGER"            => "N",
+		"SET_STATUS_404"                  => "N",
+		"SHOW_404"                        => "N",
+		"MESSAGE_404"                     => ""
 	]
 );
 ?>
-	
-	
+
+
 	<section class="services">
 		<div class="container">
 			<div class="h1 services__header">услуги good work</div>
