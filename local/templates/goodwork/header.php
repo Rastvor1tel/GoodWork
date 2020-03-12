@@ -26,7 +26,7 @@
 					<a href="#" class="header__socials_link icon icon-facebook"></a>
 					<a href="#" class="header__socials_link icon icon-instagram"></a>
 				</div>
-				<button type="button" class="button button-transparent header__callback">Заказать звонок</button>
+				<button type="button" class="button button-transparent header__callback js-callback">Заказать звонок</button>
 			</div>
 			<? $APPLICATION->IncludeComponent(
 				"bitrix:menu",

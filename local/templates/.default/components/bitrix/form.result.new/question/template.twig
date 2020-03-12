@@ -1,0 +1,20 @@
+{% if (result.isFormNote != "Y") %}
+	{{ result.FORM_HEADER }}
+	<div class="feedback__form_header h1">{{ result.FORM_TITLE }}</div>
+	<div class="feedback__form_text form_text">{{ result.FORM_DESCRIPTION }}</div>
+	{% if (result.isFormErrors == "Y") %}
+		{{ result.FORM_ERRORS_TEXT }}
+	{% endif %}
+	<div class="feedback__form_fields form__fields">
+		<input name="form_text_3" type="text" class="input input-text feedback__form_input form__input" value="{{ result.arrVALUES.form_text_3 }}" placeholder="Имя">
+		<input name="form_text_4" type="text" class="input input-text feedback__form_input form__input js-phone-mask" value="{{ result.arrVALUES.form_text_4 }}" placeholder="Телефон*" required>
+	</div>
+	<div class="feedback__form_policy form__policy">
+		Нажимая кнопку “Отправить”, Вы соглашаетесь на обработку персональных данных, указанных в <a href="#">политике конфиденциальности</a>
+	</div>
+	<input type="submit" name="web_form_submit" class="button button-black feedback__form_button form__button" value="Узнать подробнее">
+	{{ result.FORM_FOOTER }}
+{% else %}
+	<div class="feedback__form_header h1">Заказать звонок</div>
+	<div class="feedback__form_text form__text">{{ result.FORM_NOTE }}</div>
+{% endif %}

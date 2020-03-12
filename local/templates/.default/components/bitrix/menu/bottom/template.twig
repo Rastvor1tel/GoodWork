@@ -1,0 +1,7 @@
+{% if result|length > 0 %}
+	<nav class="footer__nav">
+		{% for item in result %}
+			<a href="{{ item.LINK }}" class="footer__nav_link">{{ item.TEXT }}</a>
+		{% endfor %}
+	</nav>
+{% endif %}

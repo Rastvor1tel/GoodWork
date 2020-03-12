@@ -270,22 +270,37 @@ $APPLICATION->IncludeComponent(
 	</section>
 	<section class="feedback">
 		<div id="map" class="feedback__map"></div>
-		<div class="container feedback__wrapper">
-			<form action="" class="feedback__form">
-				<div class="feedback__form_header h1">Остались вопросы?</div>
-				<div class="feedback__form_text">
-					Заполните форму и наш менеджер Вам перезвонит в течение 15 минут
-				</div>
-				<div class="feedback__form_fields">
-					<input name="name" type="text" class="input input-text feedback__form_input" placeholder="Имя">
-					<input name="phone" type="text" class="input input-text feedback__form_input js-phone-mask" placeholder="Телефон*" required>
-				</div>
-				<div class="feedback__form_policy">
-					Нажимая кнопку “Отправить”, Вы соглашаетесь на обработку персональных данных, указанных в
-					<a href="#">политике конфиденциальности</a>
-				</div>
-				<button type="submit" class="button button-black feedback__form_button">Узнать подробнее</button>
-			</form>
+		<div class="container feedback__container">
+			<div class="feedback__wrapper">
+				<?
+				$APPLICATION->IncludeComponent(
+					"bitrix:form.result.new",
+					"question",
+					[
+						"WEB_FORM_ID" => 2,
+						"AJAX_MODE" => "Y",
+						"AJAX_OPTION_JUMP" => "N",
+						"AJAX_OPTION_SHADOW" => "N",
+						"AJAX_OPTION_STYLE" => "N",
+						"CACHE_TIME" => "3600",
+						"CACHE_TYPE" => "A",
+						"CHAIN_ITEM_LINK" => "",
+						"CHAIN_ITEM_TEXT" => "",
+						"EDIT_URL" => "",
+						"IGNORE_CUSTOM_TEMPLATE" => "N",
+						"LIST_URL" => "",
+						"SEF_MODE" => "N",
+						"SUCCESS_URL" => "",
+						"USE_EXTENDED_ERRORS" => "N",
+						"VARIABLE_ALIASES" => [
+							"WEB_FORM_ID" => "WEB_FORM_ID",
+							"RESULT_ID" => "RESULT_ID"
+						],
+					],
+					false
+				);
+				?>
+			</div>
 		</div>
 	</section>
 <?
