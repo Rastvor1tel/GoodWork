@@ -1,4 +1,8 @@
-<? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die(); ?>
+<? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
+
+if ($APPLICATION->GetCurPage() != '/') echo '</div>';
+
+?>
 </main>
 <footer class="footer">
 	<div class="footer__info">

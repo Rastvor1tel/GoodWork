@@ -95,21 +95,21 @@ $APPLICATION->IncludeComponent(
 	"bitrix:news.line",
 	"indexAbout",
 	[
-		"IBLOCK_TYPE"        => "content",
-		"IBLOCKS"            => [4],
-		"NEWS_COUNT"         => 6,
-		"FIELD_CODE"         => ["CODE", "NAME"],
-		"SORT_BY1"           => "SORT",
-		"SORT_ORDER1"        => "ASC",
-		"SORT_BY2"           => "ID",
-		"SORT_ORDER2"        => "ASC",
-		"CACHE_TYPE"         => "A",
-		"CACHE_TIME"         => "300",
-		"CACHE_GROUPS"       => "Y"
+		"IBLOCK_TYPE"  => "content",
+		"IBLOCKS"      => [4],
+		"NEWS_COUNT"   => 6,
+		"FIELD_CODE"   => ["CODE", "NAME"],
+		"SORT_BY1"     => "SORT",
+		"SORT_ORDER1"  => "ASC",
+		"SORT_BY2"     => "ID",
+		"SORT_ORDER2"  => "ASC",
+		"CACHE_TYPE"   => "A",
+		"CACHE_TIME"   => "300",
+		"CACHE_GROUPS" => "Y"
 	]
 );
 ?>
-	
+
 	<section class="works">
 		<div class="container works__wrapper">
 			<div class="h1 works__header">наши работы</div>
@@ -234,40 +234,25 @@ $APPLICATION->IncludeComponent(
 			</div>
 		</div>
 	</section>
-	<section class="partners">
-		<div class="container partners__wrapper">
-			<div class="h1 partners__header">сотрудничаем с крупными компаниями</div>
-			<div class="partners__slider swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide partners__slider_item">
-						<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo1.png" alt="BMI Braas">
-					</div>
-					<div class="swiper-slide partners__slider_item">
-						<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo2.png" alt="Grand Line">
-					</div>
-					<div class="swiper-slide partners__slider_item">
-						<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo3.png" alt="Металл Профиль">
-					</div>
-					<div class="swiper-slide partners__slider_item">
-						<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo4.png" alt="Rockwool">
-					</div>
-					<div class="swiper-slide partners__slider_item">
-						<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo5.png" alt="Dorken">
-					</div>
-					<div class="swiper-slide partners__slider_item">
-						<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/logo6.png" alt="Tegola Moldova">
-					</div>
-				</div>
-			</div>
-			<div class="partners__controls">
-				<div class="swiper-button-prev button button-control button-control-prev partners__control">
-					<span class="icon icon-arrow"></span>Назад
-				</div>
-				<div class="swiper-button-next button button-control button-control-next partners__control">Вперед<span class=" icon icon-arrow"></span>
-				</div>
-			</div>
-		</div>
-	</section>
+<?php
+$APPLICATION->IncludeComponent(
+	"bitrix:news.line",
+	"indexPartners",
+	[
+		"IBLOCK_TYPE"  => "content",
+		"IBLOCKS"      => [5],
+		"NEWS_COUNT"   => 20,
+		"FIELD_CODE"   => ["NAME", "PREVIEW_PICTURE"],
+		"SORT_BY1"     => "SORT",
+		"SORT_ORDER1"  => "ASC",
+		"SORT_BY2"     => "ID",
+		"SORT_ORDER2"  => "ASC",
+		"CACHE_TYPE"   => "A",
+		"CACHE_TIME"   => "300",
+		"CACHE_GROUPS" => "Y"
+	]
+);
+?>
 	<section class="feedback">
 		<div id="map" class="feedback__map"></div>
 		<div class="container feedback__container">
@@ -277,24 +262,24 @@ $APPLICATION->IncludeComponent(
 					"bitrix:form.result.new",
 					"question",
 					[
-						"WEB_FORM_ID" => 2,
-						"AJAX_MODE" => "Y",
-						"AJAX_OPTION_JUMP" => "N",
-						"AJAX_OPTION_SHADOW" => "N",
-						"AJAX_OPTION_STYLE" => "N",
-						"CACHE_TIME" => "3600",
-						"CACHE_TYPE" => "A",
-						"CHAIN_ITEM_LINK" => "",
-						"CHAIN_ITEM_TEXT" => "",
-						"EDIT_URL" => "",
+						"WEB_FORM_ID"            => 2,
+						"AJAX_MODE"              => "Y",
+						"AJAX_OPTION_JUMP"       => "N",
+						"AJAX_OPTION_SHADOW"     => "N",
+						"AJAX_OPTION_STYLE"      => "N",
+						"CACHE_TIME"             => "3600",
+						"CACHE_TYPE"             => "A",
+						"CHAIN_ITEM_LINK"        => "",
+						"CHAIN_ITEM_TEXT"        => "",
+						"EDIT_URL"               => "",
 						"IGNORE_CUSTOM_TEMPLATE" => "N",
-						"LIST_URL" => "",
-						"SEF_MODE" => "N",
-						"SUCCESS_URL" => "",
-						"USE_EXTENDED_ERRORS" => "N",
-						"VARIABLE_ALIASES" => [
+						"LIST_URL"               => "",
+						"SEF_MODE"               => "N",
+						"SUCCESS_URL"            => "",
+						"USE_EXTENDED_ERRORS"    => "N",
+						"VARIABLE_ALIASES"       => [
 							"WEB_FORM_ID" => "WEB_FORM_ID",
-							"RESULT_ID" => "RESULT_ID"
+							"RESULT_ID"   => "RESULT_ID"
 						],
 					],
 					false
@@ -303,6 +288,4 @@ $APPLICATION->IncludeComponent(
 			</div>
 		</div>
 	</section>
-<?
-require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php');
-?>
+<? require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php'); ?>

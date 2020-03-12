@@ -1,0 +1,20 @@
+{% if result.ITEMS|length > 0 %}
+	<section class="partners">
+		<div class="container partners__wrapper">
+			<div class="h1 partners__header">{{ langMessages.partnersTitle }}</div>
+			<div class="partners__slider swiper-container">
+				<div class="swiper-wrapper">
+					{% for item in result.ITEMS %}
+						<div class="swiper-slide partners__slider_item">
+							<img src="{{ item.PREVIEW_PICTURE.SRC }}" alt="{{ item.NAME }}">
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+			<div class="partners__controls">
+				<div class="swiper-button-prev button button-control button-control-prev partners__control"><span class="icon icon-arrow"></span>{{ langMessages.backward }}</div>
+				<div class="swiper-button-next button button-control button-control-next partners__control">{{ langMessages.forward }}<span class=" icon icon-arrow"></span></div>
+			</div>
+		</div>
+	</section>
+{% endif %}
