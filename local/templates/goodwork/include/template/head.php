@@ -6,6 +6,9 @@ use Bitrix\Main\Page\Asset,
 
 Loc::loadMessages(__FILE__);
 
+$rsSites = CSite::GetByID(SITE_ID);
+$siteName = $rsSites->Fetch()['SITE_NAME'];
+
 Asset::getInstance()->addString('<meta name="viewport" content="width=device-width, user-scalable=no, shrink-to-fit=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">');
 Asset::getInstance()->addString('<meta http-equiv="X-UA-Compatible" content="ie=edge">');
 Asset::getInstance()->addString('<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous"/>');
@@ -54,6 +57,6 @@ foreach ($arJsConfig as $ext => $arExt) {
 CJSCore::Init(["script"]);
 ?>
 <head>
-	<title><? $APPLICATION->ShowTitle(); ?></title>
+	<title><? $APPLICATION->ShowTitle(); ?> | <?=$siteName?></title>
 	<? $APPLICATION->ShowHead(); ?>
 </head>

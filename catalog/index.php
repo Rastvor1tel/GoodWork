@@ -25,7 +25,7 @@ $APPLICATION->IncludeComponent(
 		"USER_CONSENT_ID"                  => "0",
 		"USER_CONSENT_IS_CHECKED"          => "Y",
 		"USER_CONSENT_IS_LOADED"           => "N",
-		"SEF_MODE"                         => "N",
+		"SEF_MODE"                         => "Y",
 		"AJAX_MODE"                        => "N",
 		"AJAX_OPTION_JUMP"                 => "N",
 		"AJAX_OPTION_STYLE"                => "Y",
@@ -142,9 +142,27 @@ $APPLICATION->IncludeComponent(
 		"COMPATIBLE_MODE"                  => "Y",
 		"USE_ELEMENT_COUNTER"              => "Y",
 		"DISABLE_INIT_JS_IN_COMPONENT"     => "N",
+		"COMPONENT_TEMPLATE"               => "catalog",
+		"SEF_FOLDER"                       => "/catalog/",
+		"COMPOSITE_FRAME_MODE"             => "A",
+		"COMPOSITE_FRAME_TYPE"             => "AUTO",
+		"TOP_PRODUCT_BLOCKS_ORDER"         => "price,props,sku,quantityLimit,quantity,buttons",
+		"TOP_PRODUCT_ROW_VARIANTS"         => "[{'VARIANT':'2','BIG_DATA':false},{'VARIANT':'2','BIG_DATA':false},{'VARIANT':'2','BIG_DATA':false}]",
+		"TOP_ENLARGE_PRODUCT"              => "STRICT",
+		"TOP_SHOW_SLIDER"                  => "Y",
+		"TOP_SLIDER_INTERVAL"              => "3000",
+		"TOP_SLIDER_PROGRESS"              => "N",
+		"SEF_URL_TEMPLATES"                => [
+			"sections"     => "",
+			"section"      => "#SECTION_CODE_PATH#/",
+			"element"      => "#SECTION_CODE_PATH#/#ELEMENT_CODE#/",
+			"compare"      => "compare.php?action=#ACTION_CODE#",
+			"smart_filter" => "#SECTION_ID#/filter/#SMART_FILTER_PATH#/apply/",
+		],
 		"VARIABLE_ALIASES"                 => [
-			"ELEMENT_ID" => "ELEMENT_ID",
-			"SECTION_ID" => "SECTION_ID",
+			"compare" => [
+				"ACTION_CODE" => "action",
+			],
 		]
 	],
 	false

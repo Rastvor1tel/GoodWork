@@ -1,0 +1,22 @@
+{% if result.SECTIONS|length > 0 %}
+	<div class="catalog-inner">
+		{% for section in result.SECTIONS %}
+			<div class="catalog-inner__section">
+				<div class="catalog-inner__subheader h2">{{ section.NAME }}</div>
+				{% if section.SUBSECTIONS|length > 0 %}
+					<div class="catalog-inner__wrap">
+						{% for item in section.SUBSECTIONS %}
+							<div class="catalog-inner__item">
+								<img src="{{ item.PICTURE.SRC }}" alt="" class="catalog-inner__item_image">
+								<a href="{{ item.SECTION_PAGE_URL }}" class="catalog-inner__item_info">
+									<span class="catalog-inner__item_name h3">{{ item.NAME }}</span>
+									<span class="catalog-inner__item_readmore">{{ langMessages.more }}<span class="icon icon-arrow"></span></span>
+								</a>
+							</div>
+						{% endfor %}
+					</div>
+				{% endif %}
+			</div>
+		{% endfor %}
+	</div>
+{% endif %}
