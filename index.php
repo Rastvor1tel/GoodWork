@@ -57,38 +57,24 @@ $APPLICATION->IncludeComponent(
 );
 
 $APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"bitrix:catalog.section.list",
 	"indexServices",
 	[
-		"IBLOCK_TYPE"               => "services",
-		"IBLOCK_ID"                 => 3,
-		"NEWS_COUNT"                => 4,
-		"SORT_BY1"                  => "SORT",
-		"SORT_ORDER1"               => "ASC",
-		"SORT_BY2"                  => "ID",
-		"SORT_ORDER2"               => "ASC",
-		"FILTER_NAME"               => "",
-		"FIELD_CODE"                => ["NAME", "PREVIEW_PICTURE"],
-		"PROPERTY_CODE"             => ["ICON_CLASS"],
-		"CACHE_TYPE"                => "A",
-		"CACHE_TIME"                => "36000000",
-		"CACHE_FILTER"              => "N",
-		"CACHE_GROUPS"              => "Y",
-		"PREVIEW_TRUNCATE_LEN"      => "",
-		"ACTIVE_DATE_FORMAT"        => "d.m.Y",
-		"SET_TITLE"                 => "N",
-		"SET_BROWSER_TITLE"         => "N",
-		"SET_META_KEYWORDS"         => "N",
-		"SET_META_DESCRIPTION"      => "N",
-		"SET_LAST_MODIFIED"         => "N",
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
-		"ADD_SECTIONS_CHAIN"        => "N",
-		"DISPLAY_TOP_PAGER"         => "N",
-		"DISPLAY_BOTTOM_PAGER"      => "N",
-		"SET_STATUS_404"            => "N",
-		"SHOW_404"                  => "N",
-		"MESSAGE_404"               => ""
-	]
+		"IBLOCK_TYPE"           => "services",
+		"IBLOCK_ID"             => "3",
+		"COUNT_ELEMENTS"        => "N",
+		"TOP_DEPTH"             => "1",
+		"FILTER_NAME"           => "sectionsFilter",
+		"SHOW_PARENT_NAME"      => "Y",
+		"SECTION_URL"           => "",
+		"SECTION_USER_FIELDS"   => ["UF_ICON"],
+		"CACHE_TYPE"            => "A",
+		"CACHE_TIME"            => "36000000",
+		"CACHE_GROUPS"          => "Y",
+		"CACHE_FILTER"          => "N",
+		"ADD_SECTIONS_CHAIN"    => "N",
+	],
+	false
 );
 
 $APPLICATION->IncludeComponent(
@@ -141,7 +127,10 @@ $APPLICATION->IncludeComponent(
 								</div>
 							</div>
 							<div class="works__slider_text">
-								При изготовлении черепиц Jacobi используются только материалы высочайшего качества, что позволяет получить более качественную и прочную продукцию. Весь предоставляемый ассортимент обладает такими свойствами как долговечность (до 150 лет), шумопоглощение и морозостойкость - те качества, которые отлично подходят российскому климату.
+								При изготовлении черепиц Jacobi используются только материалы высочайшего качества, что
+								позволяет получить более качественную и прочную продукцию. Весь предоставляемый
+								ассортимент обладает такими свойствами как долговечность (до 150 лет), шумопоглощение и
+								морозостойкость - те качества, которые отлично подходят российскому климату.
 							</div>
 							<a href="#" class="works__slider_link button button-readmore">подробнее<span class="icon icon-arrow"></span></a>
 						</div>
@@ -171,7 +160,10 @@ $APPLICATION->IncludeComponent(
 								</div>
 							</div>
 							<div class="works__slider_text">
-								При изготовлении черепиц Jacobi используются только материалы высочайшего качества, что позволяет получить более качественную и прочную продукцию. Весь предоставляемый ассортимент обладает такими свойствами как долговечность (до 150 лет), шумопоглощение и морозостойкость - те качества, которые отлично подходят российскому климату.
+								При изготовлении черепиц Jacobi используются только материалы высочайшего качества, что
+								позволяет получить более качественную и прочную продукцию. Весь предоставляемый
+								ассортимент обладает такими свойствами как долговечность (до 150 лет), шумопоглощение и
+								морозостойкость - те качества, которые отлично подходят российскому климату.
 							</div>
 							<a href="#" class="works__slider_link button button-readmore">подробнее<span class="icon icon-arrow"></span></a>
 						</div>
@@ -182,7 +174,8 @@ $APPLICATION->IncludeComponent(
 				<div class="swiper-button-prev button button-control button-control-prev works__control">
 					<span class="icon icon-arrow"></span>Назад
 				</div>
-				<div class="swiper-button-next button button-control button-control-next works__control">Вперед<span class=" icon icon-arrow"></span>
+				<div class="swiper-button-next button button-control button-control-next works__control">
+					Вперед<span class=" icon icon-arrow"></span>
 				</div>
 			</div>
 		</div>
@@ -198,7 +191,11 @@ $APPLICATION->IncludeComponent(
 								<div class="reviews__slider_name h4">Александр Иванов</div>
 								<div class="reviews__slider_date">20.09.2019</div>
 							</div>
-							<div class="reviews__slider_text">Строительство дома ответственная задача, особенно когда строишь сруб. Кровля имеет сложную форму и ряд особенностей, связанных со скошенными частями скатов. Стропильную конструкцию собирали те же плотники, что и делали сруб. Проектировщик, который выезжал на замер кровли, сразу на месте подсказал мне, какие ...</div>
+							<div class="reviews__slider_text">Строительство дома ответственная задача, особенно когда
+								строишь сруб. Кровля имеет сложную форму и ряд особенностей, связанных со скошенными
+								частями скатов. Стропильную конструкцию собирали те же плотники, что и делали сруб.
+								Проектировщик, который выезжал на замер кровли, сразу на месте подсказал мне, какие ...
+							</div>
 						</div>
 						<a href="#" class="reviews__slider_link button button-readmore">подробнее<span class="icon icon-arrow"></span></a>
 					</div>
@@ -209,7 +206,10 @@ $APPLICATION->IncludeComponent(
 								<div class="reviews__slider_name h4">ООО “Кровля”</div>
 								<div class="reviews__slider_date">20.09.2019</div>
 							</div>
-							<div class="reviews__slider_text">Строительство дома ответственная задача, особенно когда строишь сруб. Кровля имеет сложную форму и ряд особенностей, связанных со скошенными частями скатов. Стропильную ...</div>
+							<div class="reviews__slider_text">Строительство дома ответственная задача, особенно когда
+								строишь сруб. Кровля имеет сложную форму и ряд особенностей, связанных со скошенными
+								частями скатов. Стропильную ...
+							</div>
 						</div>
 						<a href="#" class="reviews__slider_link button button-readmore">подробнее<span class="icon icon-arrow"></span></a>
 					</div>
@@ -219,7 +219,11 @@ $APPLICATION->IncludeComponent(
 								<div class="reviews__slider_name h4">Александр Иванов</div>
 								<div class="reviews__slider_date">20.09.2019</div>
 							</div>
-							<div class="reviews__slider_text">Строительство дома ответственная задача, особенно когда строишь сруб. Кровля имеет сложную форму и ряд особенностей, связанных со скошенными частями скатов. Стропильную конструкцию собирали те же плотники, что и делали сруб. Проектировщик, который выезжал на замер кровли, сразу на месте подсказал мне, какие ...</div>
+							<div class="reviews__slider_text">Строительство дома ответственная задача, особенно когда
+								строишь сруб. Кровля имеет сложную форму и ряд особенностей, связанных со скошенными
+								частями скатов. Стропильную конструкцию собирали те же плотники, что и делали сруб.
+								Проектировщик, который выезжал на замер кровли, сразу на месте подсказал мне, какие ...
+							</div>
 						</div>
 						<a href="#" class="reviews__slider_link button button-readmore">подробнее<span class="icon icon-arrow"></span></a>
 					</div>
@@ -229,7 +233,8 @@ $APPLICATION->IncludeComponent(
 				<div class="swiper-button-prev button button-control button-control-prev reviews__control">
 					<span class="icon icon-arrow"></span>Назад
 				</div>
-				<div class="swiper-button-next button button-control button-control-next reviews__control">Вперед<span class=" icon icon-arrow"></span>
+				<div class="swiper-button-next button button-control button-control-next reviews__control">
+					Вперед<span class=" icon icon-arrow"></span>
 				</div>
 			</div>
 		</div>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9733ee2-6f04-479d-89c5-340fb216bdc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/GoodWork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/bitrixlangplugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.element/catalog/result_modifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.element/catalog/template.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section/catalog/lang/ru/template.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.sections.top/serviceMain/template.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/element.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/sections.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/css/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Goodwork-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Goodwork-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-500.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-500.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-500.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/card/brand-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/card/general-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/section-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/section-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/goodwork-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/goodwork.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/reviews-thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/service-index1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/service-index2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/service-index3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/service-index4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/services-detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/slide1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works-index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/app.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/bodyScrollLock.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/jquery.fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/jquery.maskedinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/include/content/serviceText.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.catalog.menu_ext.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/.left.menu_ext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section/catalog/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section/catalog/template.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/element.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/element.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/section.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/section.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/indexServices/lang/ru/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/indexServices/lang/ru/template.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/indexServices/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/indexServices/template.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/.section.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/../Kodama/bitrix" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Z5Z2RebdbxJ8aAPJHO21anqMkI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\catalog.section.list" />
+      <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\catalog" />
+      <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\menu\catalog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\catalog.sections.top" />
+      <recent name="D:\dev\Projects\GoodWork\local\templates\goodwork\assets\css" />
+      <recent name="D:\dev\Projects\GoodWork\local\templates\goodwork\assets" />
+      <recent name="D:\dev\Projects\GoodWork\local\templates\goodwork" />
+      <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\catalog.section.list" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9733ee2-6f04-479d-89c5-340fb216bdc1" name="Default Changelist" comment="" />
+      <created>1584130719006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584130719006</updated>
+      <workItem from="1584130753656" duration="3145000" />
+      <workItem from="1584134330311" duration="216000" />
+      <workItem from="1584134711791" duration="897000" />
+      <workItem from="1584200160376" duration="24999000" />
+    </task>
+    <task id="LOCAL-00001" summary="Настроен второй уровень каталога">
+      <created>1584221130385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584221130385</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Настроен второй уровень каталога" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настроен второй уровень каталога" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="436" y="182" width="932" height="685" key="#Deployment" timestamp="1584203700810">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="436" y="182" width="932" height="685" key="#Deployment/0.0.1920.1050@0.0.1920.1050" timestamp="1584203700810" />
+    <state x="679" y="89" width="566" height="872" key="#PHP" timestamp="1584130847252">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="679" y="89" width="566" height="872" key="#PHP/0.0.1920.1050@0.0.1920.1050" timestamp="1584130847252" />
+    <state x="731" y="357" key="#com.intellij.tools.ToolEditorDialog" timestamp="1584130908157">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="731" y="357" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584130908157" />
+    <state x="583" y="36" key="CommitChangelistDialog2" timestamp="1584221123525">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="583" y="36" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1584221123525" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1584212549459">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584212549459" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1584131173632">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1584131173632" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1584203740954">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584203740954" />
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1584228737880">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584228737880" />
+    <state x="510" y="60" width="1270" height="941" key="SettingsEditor" timestamp="1584135072404">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="510" y="60" width="1270" height="941" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1584135072404" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1584221135596">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1584221135596" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1584212549459">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584212549459" />
+    <state x="636" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584200182301">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="636" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584200182301" />
+    <state x="786" y="174" width="330" height="701" key="ftp.server.browser" timestamp="1584203698421">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="786" y="174" width="330" height="701" key="ftp.server.browser/0.0.1920.1050@0.0.1920.1050" timestamp="1584203698421" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1584208731046">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1584208731046" />
+  </component>
+</project>

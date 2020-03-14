@@ -14,9 +14,9 @@
                             </picture>
                             <div class="catalog-inner__preview-title h3">{{ item.NAME }}</div>
                             <div class="catalog-inner__preview-buttons">
-                                <a href="{{ item.DETAIL_PAGE_URL }}" class="button button-orange">подробнее</a>
+                                <a href="{{ item.DETAIL_PAGE_URL }}" class="button button-orange">{{ langMessages.more }}</a>
                                 <div class="button button-more p-parameters" data-modal="js-parameters-{{ item.ID }}">
-                                    параметры <span class="icon icon-arrow"></span>
+                                    {{ langMessages.parameters }} <span class="icon icon-arrow"></span>
                                 </div>
                             </div>
                             <div class="popup-parameters js-parameters-{{ item.ID }}">
@@ -25,7 +25,7 @@
                                         <div class="popup-parameters__wrap">
                                             <div class="popup-parameters__close close"></div>
                                             <div class="popup-parameters__wrap-top">
-                                                <div class="popup-parameters__title">технические характеристики</div>
+                                                <div class="popup-parameters__title">{{ langMessages.charact }}</div>
                                                 <div class="popup-parameters__name h3">{{ item.NAME }}</div>
                                             </div>
                                             <ul class="popup-parameters__list">

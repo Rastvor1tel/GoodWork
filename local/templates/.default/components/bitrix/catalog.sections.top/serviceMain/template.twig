@@ -1,0 +1,24 @@
+<p>{{ includeFile(SITE_TEMPLATE_PATH~"/include/content/indexServiceText.php") }}</p>
+{% if result.SECTIONS|length > 0 %}
+	<div class="services__wrapper services-inner__wrapper">
+		{% for section in result.SECTIONS %}
+			<div class="services__item services-inner__item">
+				<img class="services__item_image" src="{{ section.PICTURE.SRC }}" alt="">
+				<div class="services__item_info services-inner__item-info">
+					<span class="services__item_icon icon icon-{{ section.UF_ICON }}"></span>
+					<span class="h3 services__item_name services-inner__item-name">{{ section.NAME }}</span>
+					{% if section.ITEMS|length > 0 %}
+						<ul class="services-inner__links">
+							{% for item in section.ITEMS %}
+								<li class="services-inner__links-item">
+									<a href="{{ item.DETAIL_PAGE_URL }}">{{ item.NAME }}</a>
+									<span class="icon icon-arrow"></span>
+								</li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+{% endif %}

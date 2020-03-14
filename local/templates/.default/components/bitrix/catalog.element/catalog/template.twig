@@ -1,0 +1,117 @@
+<div class="card">
+    <div class="card__top">
+        <picture class="card__image">
+            <img class="card__image-brand" src="{{ result.BRAND }}" alt="">
+            <img class="card__image-general" src="{{ result.DETAIL_PICTURE.SRC }}" alt="">
+        </picture>
+        <div class="card__specifications">
+            {% if result.CHARACT|length > 0 %}
+                <div class="card__specifications-title h3">технические характеристики</div>
+                <ul class="card__specifications-list">
+                    {% for item in result.CHARACT %}
+                        <li class="card__specifications-item">
+                            <p>{{ item.NAME }}</p>
+                            <span>{{ item.VALUE }}</span>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            <p>Оригинальный рисунок профиля металлочерепицы Kvinta plus перенесет Вас в Европу с ее
+                маленькими, красивыми, уютными домиками. Благодаря наличию канавки на гребне этот вид
+                металлочерепицы выгодно отличается от аналогов.</p>
+            <a href="/our_works/" class="button button-orange">Наши работы</a>
+        </div>
+    </div>
+
+    {% if cardTabs|length > 0 %}
+        <div class="catalog-inner__subheader h2">Покрытия</div>
+
+        <div class="card__tabs">
+            <ul class="card-tabs__links">
+                {% for tab in cardTabs %}
+                    <li class="card-tabs__links-item h3">
+                        <a href="#tab-{{ loop.index }}">{{ tab.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <div class="card__tab-list">
+                {% for tab in cardTabs %}
+                    <div class="detail-background-text">Good Work</div>
+                    <div class="card__tab-item" id="tab-{{ loop.index }}">
+                        <div class="card__tab-title h3">{{ tab.name }}®</div>
+                        <div class="card__tab-wrapper">
+                            <div class="card-tab__parameters">
+                                <div class="card-tab__parameters-color" style="background: #3488aa"></div>
+
+                                {% if tab.parameters|length > 0 %}
+                                    <ul class="card-tab__parameters-list">
+                                        {% for param in tab.parameters %}
+                                            <li class="card-tab__parameters-item">
+                                                <p>{{ param.key }}</p>
+                                                <span>{{ param.value }}</span>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+
+                                <div class="card-tab__parameters-gamma">
+                                    <span></span>
+                                    <p>Самая широкая цветовая гамма</p>
+                                </div>
+                            </div>
+
+                            {% if tab.colors|length > 0 %}
+                                <div class="card-tab__colors-list">
+                                    <div class="card-tab__colors-wrap">
+                                        {% for color in tab.colors %}
+                                            <div class="card-tab__colors-item">
+                                                <div class="card-tab__colors-code"
+                                                     style="background: {{ color.code }}"></div>
+                                                <div class="card-tab__colors-title h3">{{ color.name }}</div>
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+    <div class="content">
+        <p>У нас вы сможете приобрести металлочерепицу Kvinta plus для частного дома, коттеджа,
+            административного или общественного здания. Представленная в каталоге продукция соответствует
+            высоким европейским стандартам качества. В производстве компания Grand Line использует
+            американское и европейское оборудование. Металлочерепица Kvinta plus изготовлена из оцинкованной
+            стали, устойчивой к значительным механическим нагрузкам, давлению и коррозии.
+        </p>
+        <p>Особенности и преимущества металлочерепицы Квинта плюс:
+        </p>
+        <ul>
+            <li>Красивый внешний вид, широкая цветовая палитра, разнообразие текстур с высокими
+                эксплуатационными характеристиками.
+            </li>
+            <li>Повышенная прочность за счет наличия канавки на гребне.
+            </li>
+            <li>Устойчивость к воздействию атмосферных осадков.
+            </li>
+            <li>Устойчивость к ультрафиолету. С течением времени покрытие не теряет насыщенности цвета.
+            </li>
+            <li>Металлочерепица Kvinta plus отличается габаритной шириной, и по сравнению с другими
+                профилями она является более экономичной.
+            </li>
+            <li>Высокая точность геометрии стыков.
+            </li>
+            <li>На все виды такой металлочерепицы производитель предоставляет гарантию сроком до 50 лет.
+                Доставка кровельного материала осуществляется в Москву и в любой регион Российской
+                Федерации. Дополнительную информацию узнавайте по контактным телефонам, указанным на сайте.
+            </li>
+        </ul>
+    </div>
+
+    <div class="card__clarification">
+        <p>* На сайте указаны розничные цены. Предусматриваются условия скидок, в зависимости от объёма. За
+            информацией обращайтесь к менеджерам компании.</p>
+    </div>
+</div>
