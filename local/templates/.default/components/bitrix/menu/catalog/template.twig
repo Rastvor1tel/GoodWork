@@ -1,0 +1,33 @@
+<div class="sidebar-open button button-transparent">{{ langMessages.catalog }}</div>
+<nav class="sidebar">
+    {% if result|length > 0 %}
+        {% for menuLevel1 in result %}
+            <div class="sidebar__item {% if menuLevel1.SELECTED == true %}sidebar__item_active sidebar__item_open{% endif %}">
+                <div class="sidebar__item-wrap">
+                    <a href="{{ menuLevel1.LINK }}">{{ menuLevel1.TEXT }}</a>
+                    <span class="icon icon-arrow js-sidebar-level2"></span>
+                </div>
+                {% if menuLevel1.ITEMS|length > 0 %}
+                    <div class="sidebar__level2">
+                        {% for menuLevel2 in menuLevel1.ITEMS %}
+                            <div class="sidebar__level2-item {% if menuLevel2.SELECTED == true %}sidebar__level2-item_active sidebar__level2-item_open{% endif %}">
+                                <div class="sidebar__subnav-wrap">
+                                    <span class="icon icon-arrow js-sidebar-level3"></span>
+									<a href="{{ menuLevel2.LINK }}">{{ menuLevel2.TEXT }}</a>
+                                </div>
+                                {% if menuLevel2.ITEMS|length > 0 %}
+                                    <div class="sidebar__level3">
+                                        {% for menuLevel3 in menuLevel2.ITEMS %}
+                                            <a href="{{ menuLevel3.LINK }}" class="{% if menuLevel3.SELECTED %}active{% endif %}">{{ menuLevel3.TEXT }}</a>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+        <div class="sidebar__close close"></div>
+    {% endif %}
+</nav>

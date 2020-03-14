@@ -40,12 +40,13 @@ $arJsConfig = [
 	],
 	"app"            => [
 		"js"        => SITE_TEMPLATE_PATH . "/assets/js/app.js",
+		"css"       => SITE_TEMPLATE_PATH . "/assets/css/style.css",
 		"rel"       => ["jquery3", "maskedinput", "yandexmap", "bodyScrollLock", "swiper"],
 		"skip_core" => true,
 	],
 	"script"         => [
 		"js"        => SITE_TEMPLATE_PATH . "/assets/js/script.js",
-		"css"       => SITE_TEMPLATE_PATH . "/assets/css/style.css",
+		"css"       => SITE_TEMPLATE_PATH . "/assets/css/custom.css",
 		"rel"       => ["jquery3", "app"],
 		"skip_core" => false,
 	],

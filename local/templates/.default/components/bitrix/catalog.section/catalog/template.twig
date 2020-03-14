@@ -1,0 +1,49 @@
+{% if result.FORMATTED_ITEMS|length > 0 %}
+    {% for section in result.FORMATTED_ITEMS %}
+        <div class="catalog-inner__section">
+            <div class="catalog-inner__section-top">
+                <img src="{{ section.PICTURE }}" alt="">
+                <div class="catalog-inner__section-title">{{ section.DESCRIPTION }}</div>
+            </div>
+            {% if section.ITEMS|length > 0 %}
+                <div class="catalog-inner__preview-list">
+                    {% for item in section.ITEMS %}
+                        <div class="catalog-inner__preview-item">
+                            <picture class="catalog-inner__preview-image">
+                                <img src="{{ item.PREVIEW_PICTURE.SRC }}" alt="{{ item.NAME }}">
+                            </picture>
+                            <div class="catalog-inner__preview-title h3">{{ item.NAME }}</div>
+                            <div class="catalog-inner__preview-buttons">
+                                <a href="{{ item.DETAIL_PAGE_URL }}" class="button button-orange">подробнее</a>
+                                <div class="button button-more p-parameters" data-modal="js-parameters-{{ item.ID }}">
+                                    параметры <span class="icon icon-arrow"></span>
+                                </div>
+                            </div>
+                            <div class="popup-parameters js-parameters-{{ item.ID }}">
+                                <div class="popup-parameters__overlay js-watchPopup">
+                                    <div class="popup-parameters__body">
+                                        <div class="popup-parameters__wrap">
+                                            <div class="popup-parameters__close close"></div>
+                                            <div class="popup-parameters__wrap-top">
+                                                <div class="popup-parameters__title">технические характеристики</div>
+                                                <div class="popup-parameters__name h3">{{ item.NAME }}</div>
+                                            </div>
+                                            <ul class="popup-parameters__list">
+                                                {% for item in item.CHARACT %}
+                                                    <li class="popup-parameters__item">
+                                                        <p>{{ item.NAME }}</p>
+                                                        <span>{{ item.VALUE }}</span>
+                                                    </li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
+{% endif %}
