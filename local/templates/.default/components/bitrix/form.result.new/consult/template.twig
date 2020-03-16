@@ -1,0 +1,24 @@
+{% if (result.isFormNote != "Y") %}
+    {{ result.FORM_HEADER }}
+    <div class="form-advice__title h1">{{ result.FORM_TITLE }}</div>
+    <div class="form-advice__text form_text">{{ result.FORM_DESCRIPTION }}</div>
+    {% if (result.isFormErrors == "Y") %}
+        {{ result.FORM_ERRORS_TEXT }}
+    {% endif %}
+    <div class="form-advice__fields form__fields">
+        <label class="form-advice__label">
+            <input name="form_text_5" type="text" class="input input-text form-advice__input form__input" value="{{ result.arrVALUES.form_text_5 }}" placeholder="Имя">
+        </label>
+        <label class="form-advice__label">
+            <input name="form_text_6" type="text" class="input input-text form-advice__input form__input js-phone-mask" value="{{ result.arrVALUES.form_text_6 }}" placeholder="Телефон*" required>
+        </label>
+		<input type="submit" name="web_form_submit" class="button button-black form-advice__button form__button" value="Узнать подробнее">
+    </div>
+	<div class="form-advice__policy form__policy">
+		Нажимая кнопку “Отправить”, Вы соглашаетесь на обработку персональных данных, указанных в <a href="{{ result.POLICY_LINK }}">политике конфиденциальности</a>
+	</div>
+    {{ result.FORM_FOOTER }}
+{% else %}
+    <div class="form-advice__title h1">{{ result.FORM_TITLE }}</div>
+    <div class="form-advice__text form__text">{{ result.FORM_NOTE }}</div>
+{% endif %}

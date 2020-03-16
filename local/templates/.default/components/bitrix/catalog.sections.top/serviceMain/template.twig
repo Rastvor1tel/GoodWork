@@ -1,4 +1,4 @@
-<p>{{ includeFile(SITE_TEMPLATE_PATH~"/include/content/indexServiceText.php") }}</p>
+<p class="page-description">{{ includeFile(SITE_TEMPLATE_PATH~"/include/content/indexServiceText.php") }}</p>
 {% if result.SECTIONS|length > 0 %}
 	<div class="services__wrapper services-inner__wrapper">
 		{% for section in result.SECTIONS %}
@@ -6,7 +6,7 @@
 				<img class="services__item_image" src="{{ section.PICTURE.SRC }}" alt="">
 				<div class="services__item_info services-inner__item-info">
 					<span class="services__item_icon icon icon-{{ section.UF_ICON }}"></span>
-					<span class="h3 services__item_name services-inner__item-name">{{ section.NAME }}</span>
+					<a href="{{ section.SECTION_PAGE_URL }}" class="h3 services__item_name services-inner__item-name">{{ section.NAME }}</a>
 					{% if section.ITEMS|length > 0 %}
 						<ul class="services-inner__links">
 							{% for item in section.ITEMS %}

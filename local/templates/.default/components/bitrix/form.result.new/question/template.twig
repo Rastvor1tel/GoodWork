@@ -10,7 +10,7 @@
 		<input name="form_text_4" type="text" class="input input-text feedback__form_input form__input js-phone-mask" value="{{ result.arrVALUES.form_text_4 }}" placeholder="Телефон*" required>
 	</div>
 	<div class="feedback__form_policy form__policy">
-		Нажимая кнопку “Отправить”, Вы соглашаетесь на обработку персональных данных, указанных в <a href="#">политике конфиденциальности</a>
+		Нажимая кнопку “Отправить”, Вы соглашаетесь на обработку персональных данных, указанных в <a href="{{ result.POLICY_LINK }}">политике конфиденциальности</a>
 	</div>
 	<input type="submit" name="web_form_submit" class="button button-black feedback__form_button form__button" value="Узнать подробнее">
 	{{ result.FORM_FOOTER }}

@@ -41,13 +41,13 @@ if ($APPLICATION->GetCurPage() == '/') {
 		<?= $logoHtml ?>
 		<div class="header__main">
 			<div class="header__top">
-				<form class="header__search">
-					<input type="search" class="header__search_input input input-search" placeholder="Поиск...">
+				<form class="header__search" action="/search/" method="get">
+					<input name="q" type="search" class="header__search_input input input-search" placeholder="Поиск...">
 					<button type="submit" class="header__search_button icon icon-search js-search"></button>
 				</form>
 				<?= $headerContactsHtml ?>
 				<?= $headerSocialsHtml ?>
-				<button type="button" class="button button-transparent header__callback js-callback"><?=Loc::getMessage("CALLBACK_TITLE")?></button>
+				<button type="button" class="button button-transparent header__callback js-callback"><?= Loc::getMessage("CALLBACK_TITLE") ?></button>
 			</div>
 			<?php
 			$APPLICATION->IncludeComponent(

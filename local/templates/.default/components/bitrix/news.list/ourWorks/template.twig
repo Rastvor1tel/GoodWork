@@ -1,0 +1,16 @@
+{% if result.ITEMS|length > 0 %}
+    <div class="our-works__list">
+        {% for item in result.ITEMS %}
+            <div class="our-works__item">
+                <picture class="our-works__item-image">
+                    <img src="{{ item.PREVIEW_PICTURE.SRC }}" alt="">
+                </picture>
+                <div class="our-works__item-bottom">
+                    <div class="our-works__item-title h3">{{ item.NAME }}</div>
+                    <a href="{{ item.DETAIL_PAGE_URL }}" class="button button-readmore">подробнее <span class="icon icon-arrow"></span></a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    {{ result.NAV_STRING }}
+{% endif %}

@@ -1,0 +1,12 @@
+{% if result.ITEMS|length > 0 %}
+    <div class="our-works__filter">
+        <div class="our-works__filter-item {% if result.CURRENT is empty %}active{% endif %}">
+            <a href="/our_works/" class="our-works__filter-label h3">Все</a>
+        </div>
+        {% for item in result.ITEMS %}
+            <div class="our-works__filter-item {% if result.CURRENT == item.ID %}active{% endif %}">
+                <a href="/our_works/{{ item.LINK }}" class="our-works__filter-label h3">{{ item.NAME }}</a>
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}

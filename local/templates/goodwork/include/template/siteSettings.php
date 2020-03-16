@@ -6,6 +6,7 @@ use Bitrix\Main\Config\Option;
 global $siteSettings;
 $siteSettings = [
 	"logoSrc"  => SITE_TEMPLATE_PATH . Option::get("grain.customsettings","logo"),
+	"policyLink"  => Option::get("grain.customsettings","policy"),
 	"contacts" => [
 		"phone" => Option::get("grain.customsettings","phone"),
 		"email" => Option::get("grain.customsettings","email"),

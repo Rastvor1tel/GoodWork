@@ -53,4 +53,37 @@ $this->setFrameMode(true);
 		$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH."/include/content/serviceText.php");
 		?>
 	</div>
+	<div class="form-advice">
+		<div class="form-advice__wrapper">
+			<?
+			$APPLICATION->IncludeComponent(
+				"bitrix:form.result.new",
+				"consult",
+				[
+					"WEB_FORM_ID"            => 3,
+					"AJAX_MODE"              => "Y",
+					"AJAX_OPTION_JUMP"       => "N",
+					"AJAX_OPTION_SHADOW"     => "N",
+					"AJAX_OPTION_STYLE"      => "N",
+					"CACHE_TIME"             => "3600",
+					"CACHE_TYPE"             => "A",
+					"CHAIN_ITEM_LINK"        => "",
+					"CHAIN_ITEM_TEXT"        => "",
+					"EDIT_URL"               => "",
+					"IGNORE_CUSTOM_TEMPLATE" => "N",
+					"LIST_URL"               => "",
+					"SEF_MODE"               => "N",
+					"SUCCESS_URL"            => "",
+					"USE_EXTENDED_ERRORS"    => "N",
+					"VARIABLE_ALIASES"       => [
+						"WEB_FORM_ID" => "WEB_FORM_ID",
+						"RESULT_ID"   => "RESULT_ID"
+					],
+				],
+				false
+			);
+			?>
+
+		</div>
+	</div>
 </div>

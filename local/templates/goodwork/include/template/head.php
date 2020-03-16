@@ -14,6 +14,11 @@ Asset::getInstance()->addString('<meta http-equiv="X-UA-Compatible" content="ie=
 Asset::getInstance()->addString('<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous"/>');
 
 $arJsConfig = [
+	"jqueryui"      => [
+		"js"        => "//code.jquery.com/ui/1.12.1/jquery-ui.min.js",
+		"rel"       => ["jquery3"],
+		"skip_core" => true,
+	],
 	"yandexmap"      => [
 		"js"        => "//api-maps.yandex.ru/2.1/?apikey=116bd1d7-b50e-4091-85e5-729db9e3ed7f&lang=ru_RU",
 		"skip_core" => true,
@@ -41,7 +46,7 @@ $arJsConfig = [
 	"app"            => [
 		"js"        => SITE_TEMPLATE_PATH . "/assets/js/app.js",
 		"css"       => SITE_TEMPLATE_PATH . "/assets/css/style.css",
-		"rel"       => ["jquery3", "maskedinput", "yandexmap", "bodyScrollLock", "swiper"],
+		"rel"       => ["jquery3", "maskedinput", "yandexmap", "bodyScrollLock", "swiper", "jqueryui"],
 		"skip_core" => true,
 	],
 	"script"         => [

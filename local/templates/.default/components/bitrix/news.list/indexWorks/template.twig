@@ -1,0 +1,40 @@
+<section class="works">
+    <div class="container works__wrapper">
+        <div class="h1 works__header">Наши работы</div>
+        <div class="works__text">{{ includeFile(SITE_TEMPLATE_PATH~"/include/content/indexWorkText.php") }}</div>
+        {% if result.ITEMS|length > 0 %}
+            <div class="works__slider swiper-container">
+                <div class="swiper-wrapper">
+                    {% for item in result.ITEMS %}
+                        <div class="swiper-slide works__slider_item">
+                            <div class="works__slider_image">
+                                <img src="{{ item.DETAIL_PICTURE.SRC }}" alt="">
+                            </div>
+                            <div class="works__slider_info">
+                                <div class="works__slider_name h2">{{ item.NAME }}</div>
+                                {% if item.CHARACT|length > 0 %}
+                                    <div class="works__slider_params">
+                                        {% for param in item.CHARACT %}
+                                            <div class="works__slider_param">
+                                                <div class="works__slider_param-name">{{ param.NAME }}</div>
+                                                <div class="works__slider_param-value">{{ param.VALUE }}</div>
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                                <div class="works__slider_text">
+                                    {{ item.PREVIEW_TEXT }}
+                                </div>
+                                <a href="{{ item.DETAIL_PAGE_URL }}" class="works__slider_link button button-readmore">подробнее<span class="icon icon-arrow"></span></a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="works__controls">
+                <div class="swiper-button-prev button button-control button-control-prev works__control"><span class="icon icon-arrow"></span>Назад</div>
+                <div class="swiper-button-next button button-control button-control-next works__control">Вперед<span class=" icon icon-arrow"></span></div>
+            </div>
+        {% endif %}
+    </div>
+</section>

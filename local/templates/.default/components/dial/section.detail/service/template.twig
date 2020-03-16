@@ -1,0 +1,22 @@
+<div class="services-detail__top">
+    {{ result.UF_UPPER_TEXT }}
+    <picture class="services-detail__image">
+        <img src="{{ result.DETAIL_PICTURE.SRC }}" alt="">
+    </picture>
+    <div class="detail-background-text">Good Work</div>
+</div>
+<div class="content">
+    {{ result.DESCRIPTION }}
+    {% if result.UF_STEPS|length > 0 %}
+        <h2>Этапы выполнения кровельных работ</h2>
+        <div class="services-detail__steps">
+            {% for step in result.UF_STEPS %}
+                <div class="services-detail__step">
+                    <div class="services-detail__step-number">{{ loop.index }} <span>шаг</span></div>
+                    <p>{{ step }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+    {{ result.UF_BOTTOM_TEXT }}
+</div>

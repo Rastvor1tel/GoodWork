@@ -2,3 +2,6 @@
 
 $formAttributes = 'class="popup__form"';
 $arResult['FORM_HEADER'] = str_replace('<form', '<form ' . $formAttributes . '', $arResult['FORM_HEADER']);
+
+global $siteSettings;
+$arResult["POLICY_LINK"] = $siteSettings["policyLink"];

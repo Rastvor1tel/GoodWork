@@ -94,92 +94,43 @@ $APPLICATION->IncludeComponent(
 		"CACHE_GROUPS" => "Y"
 	]
 );
+
+$APPLICATION->IncludeComponent(
+	"bitrix:news.list",
+	"indexWorks",
+	[
+		"IBLOCK_TYPE"               => "ourworks",
+		"IBLOCK_ID"                 => 7,
+		"NEWS_COUNT"                => 20,
+		"SORT_BY1"                  => "SORT",
+		"SORT_ORDER1"               => "ASC",
+		"SORT_BY2"                  => "ID",
+		"SORT_ORDER2"               => "ASC",
+		"FILTER_NAME"               => "",
+		"FIELD_CODE"                => ["ID", "NAME", "PREVIEW_TEXT", "DETAIL_TEXT", "DETAIL_PICTURE"],
+		"PROPERTY_CODE"             => ["CHARACT"],
+		"CACHE_TYPE"                => "A",
+		"CACHE_TIME"                => "36000000",
+		"CACHE_FILTER"              => "N",
+		"CACHE_GROUPS"              => "Y",
+		"PREVIEW_TRUNCATE_LEN"      => "",
+		"ACTIVE_DATE_FORMAT"        => "d.m.Y",
+		"SET_TITLE"                 => "N",
+		"SET_BROWSER_TITLE"         => "N",
+		"SET_META_KEYWORDS"         => "N",
+		"SET_META_DESCRIPTION"      => "N",
+		"SET_LAST_MODIFIED"         => "N",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+		"ADD_SECTIONS_CHAIN"        => "N",
+		"DISPLAY_TOP_PAGER"         => "N",
+		"DISPLAY_BOTTOM_PAGER"      => "N",
+		"SET_STATUS_404"            => "N",
+		"SHOW_404"                  => "N",
+		"MESSAGE_404"               => ""
+	]
+);
 ?>
 
-	<section class="works">
-		<div class="container works__wrapper">
-			<div class="h1 works__header">наши работы</div>
-			<div class="works__text">В GOODWORK знают о кровельных и фасадных материалах всё</div>
-			<div class="works__slider swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide works__slider_item">
-						<div class="works__slider_image">
-							<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/works-index.png" alt="">
-						</div>
-						<div class="works__slider_info">
-							<div class="works__slider_name h2">Кровля из керамической черепицы Jacobi</div>
-							<div class="works__slider_params">
-								<div class="works__slider_param">
-									<div class="works__slider_param-name">Площадь:</div>
-									<div class="works__slider_param-value">400 м²</div>
-								</div>
-								<div class="works__slider_param">
-									<div class="works__slider_param-name">Материал:</div>
-									<div class="works__slider_param-value">Jacobi J11</div>
-								</div>
-								<div class="works__slider_param">
-									<div class="works__slider_param-name">Цвет:</div>
-									<div class="works__slider_param-value">темно-коричневый</div>
-								</div>
-								<div class="works__slider_param">
-									<div class="works__slider_param-name">Срок выполнения:</div>
-									<div class="works__slider_param-value">3,5 месяца</div>
-								</div>
-							</div>
-							<div class="works__slider_text">
-								При изготовлении черепиц Jacobi используются только материалы высочайшего качества, что
-								позволяет получить более качественную и прочную продукцию. Весь предоставляемый
-								ассортимент обладает такими свойствами как долговечность (до 150 лет), шумопоглощение и
-								морозостойкость - те качества, которые отлично подходят российскому климату.
-							</div>
-							<a href="#" class="works__slider_link button button-readmore">подробнее<span class="icon icon-arrow"></span></a>
-						</div>
-					</div>
-					<div class="swiper-slide works__slider_item">
-						<div class="works__slider_image">
-							<img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/works-index.png" alt="">
-						</div>
-						<div class="works__slider_info">
-							<div class="works__slider_name h2">Кровля из керамической черепицы Jacobi</div>
-							<div class="works__slider_params">
-								<div class="works__slider_param">
-									<div class="works__slider_param-name">Площадь:</div>
-									<div class="works__slider_param-value">400 м²</div>
-								</div>
-								<div class="works__slider_param">
-									<div class="works__slider_param-name">Материал:</div>
-									<div class="works__slider_param-value">Jacobi J11</div>
-								</div>
-								<div class="works__slider_param">
-									<div class="works__slider_param-name">Цвет:</div>
-									<div class="works__slider_param-value">темно-коричневый</div>
-								</div>
-								<div class="works__slider_param">
-									<div class="works__slider_param-name">Срок выполнения:</div>
-									<div class="works__slider_param-value">3,5 месяца</div>
-								</div>
-							</div>
-							<div class="works__slider_text">
-								При изготовлении черепиц Jacobi используются только материалы высочайшего качества, что
-								позволяет получить более качественную и прочную продукцию. Весь предоставляемый
-								ассортимент обладает такими свойствами как долговечность (до 150 лет), шумопоглощение и
-								морозостойкость - те качества, которые отлично подходят российскому климату.
-							</div>
-							<a href="#" class="works__slider_link button button-readmore">подробнее<span class="icon icon-arrow"></span></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="works__controls">
-				<div class="swiper-button-prev button button-control button-control-prev works__control">
-					<span class="icon icon-arrow"></span>Назад
-				</div>
-				<div class="swiper-button-next button button-control button-control-next works__control">
-					Вперед<span class=" icon icon-arrow"></span>
-				</div>
-			</div>
-		</div>
-	</section>
 	<section class="reviews">
 		<div class="container reviews__wrapper">
 			<div class="reviews__header h1">Отзывы</div>

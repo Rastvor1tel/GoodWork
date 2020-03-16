@@ -1,3 +1,17 @@
 .catalog-inner__wrap.inner {
     margin: 0;
 }
+
+.services__item_name:hover {
+    color: #ef9300;
+    text-decoration: none;
+}
+
+.our-works__filter-item.active a, .our-works__filter-item:hover a {
+    color: #ef9300;
+    text-decoration: none;
+}
+
+.works-detail .page__header {
+    margin-bottom: 12px;
+}

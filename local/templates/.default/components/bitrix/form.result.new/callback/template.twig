@@ -10,7 +10,7 @@
 		<input name="form_text_2" type="text" class="input input-text popup__form_input form__input js-phone-mask" value="{{ result.arrVALUES.form_text_2 }}" placeholder="Телефон*" required>
 	</div>
 	<div class="popup__form_policy form__policy">
-		Нажимая кнопку “Отправить”, Вы соглашаетесь на обработку персональных данных, указанных в <a href="#">политике конфиденциальности</a>
+		Нажимая кнопку “Отправить”, Вы соглашаетесь на обработку персональных данных, указанных в <a href="{{ result.POLICY_LINK }}">политике конфиденциальности</a>
 	</div>
 	<input type="submit" name="web_form_submit" class="button button-black popup__form_button form__button" value="Отправить">
 	{{ result.FORM_FOOTER }}

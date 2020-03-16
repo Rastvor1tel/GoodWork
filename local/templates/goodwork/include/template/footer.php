@@ -55,7 +55,7 @@ footerSocials;
 	<div class="footer__copyrights">
 		<div class="container footer__copyrights_wrapper">
 			<div class="footer__copyrights_about">© GOOD WORK. <?= date("Y") ?></div>
-			<a href="#" class="footer__copyrights_policy"><?= Loc::getMessage("POLICY_TITLE") ?></a>
+			<a href="<?=$siteSettings["policyLink"]?>" class="footer__copyrights_policy"><?= Loc::getMessage("POLICY_TITLE") ?></a>
 		</div>
 	</div>
 </footer>
