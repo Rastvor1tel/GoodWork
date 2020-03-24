@@ -9,9 +9,11 @@
                 <div class="catalog-inner__preview-list">
                     {% for item in section.ITEMS %}
                         <div class="catalog-inner__preview-item">
-                            <picture class="catalog-inner__preview-image">
-                                <img src="{{ item.PREVIEW_PICTURE.SRC }}" alt="{{ item.NAME }}">
-                            </picture>
+                            <a href="{{ item.DETAIL_PAGE_URL }}">
+                                <picture class="catalog-inner__preview-image">
+                                    <img src="{{ item.PREVIEW_PICTURE.SRC }}" alt="{{ item.NAME }}">
+                                </picture>
+                            </a>
                             <div class="catalog-inner__preview-title h3">{{ item.NAME }}</div>
                             <div class="catalog-inner__preview-buttons">
                                 <a href="{{ item.DETAIL_PAGE_URL }}" class="button button-orange">{{ langMessages.more }}</a>

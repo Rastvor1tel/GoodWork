@@ -32,7 +32,8 @@ $this->setFrameMode(true);
 				"MAX_LEVEL"             => "1",
 				"USE_EXT"               => "Y",
 				"DELAY"                 => "N",
-				"ALLOW_MULTI_SELECT"    => "N"
+				"ALLOW_MULTI_SELECT"    => "N",
+				"TITLE"                 => "Услуги"
 			],
 			false
 		);

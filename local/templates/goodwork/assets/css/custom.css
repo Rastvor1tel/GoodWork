@@ -15,3 +15,12 @@
 .works-detail .page__header {
     margin-bottom: 12px;
 }
+
+@media screen  and (max-width: 1024px) {
+    .services-detail {
+        flex-direction: column;
+    }
+    .sidebar-open {
+        max-width: 200px;
+    }
+}

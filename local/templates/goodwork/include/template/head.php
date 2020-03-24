@@ -46,7 +46,7 @@ $arJsConfig = [
 	"app"            => [
 		"js"        => SITE_TEMPLATE_PATH . "/assets/js/app.js",
 		"css"       => SITE_TEMPLATE_PATH . "/assets/css/style.css",
-		"rel"       => ["jquery3", "maskedinput", "yandexmap", "bodyScrollLock", "swiper", "jqueryui"],
+		"rel"       => ["jquery3", "maskedinput", "yandexmap", "bodyScrollLock", "swiper", "jqueryui", "fancybox"],
 		"skip_core" => true,
 	],
 	"script"         => [

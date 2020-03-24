@@ -23,15 +23,18 @@ $this->setFrameMode(true);
 		$APPLICATION->IncludeComponent(
 			"bitrix:menu",
 			"catalog",
-			["ROOT_MENU_TYPE"        => "left",
-			 "MENU_CACHE_TYPE"       => "A",
-			 "MENU_CACHE_TIME"       => "3600",
-			 "MENU_CACHE_USE_GROUPS" => "Y",
-			 "MENU_CACHE_GET_VARS"   => [],
-			 "MAX_LEVEL"             => "1",
-			 "USE_EXT"               => "Y",
-			 "DELAY"                 => "N",
-			 "ALLOW_MULTI_SELECT"    => "N"],
+			[
+				"ROOT_MENU_TYPE"        => "left",
+				"MENU_CACHE_TYPE"       => "A",
+				"MENU_CACHE_TIME"       => "3600",
+				"MENU_CACHE_USE_GROUPS" => "Y",
+				"MENU_CACHE_GET_VARS"   => [],
+				"MAX_LEVEL"             => "1",
+				"USE_EXT"               => "Y",
+				"DELAY"                 => "N",
+				"ALLOW_MULTI_SELECT"    => "N",
+				"TITLE"                 => "Услуги"
+			],
 			false
 		);
 		?>

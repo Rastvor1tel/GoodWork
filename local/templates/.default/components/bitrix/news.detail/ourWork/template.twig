@@ -1,48 +1,49 @@
 {% if result.CHARACT|length > 0 %}
-    <ul class="card__specifications-list works-detail__specifications-list">
-        {% for item in result.CHARACT %}
-            <li class="card__specifications-item works-detail__specifications-item">
-                <p>{{ item.NAME }}</p>
-                <span>{{ item.VALUE }}</span>
-            </li>
-        {% endfor %}
-    </ul>
+	<ul class="card__specifications-list works-detail__specifications-list">
+		{% for item in result.CHARACT %}
+			<li class="card__specifications-item works-detail__specifications-item">
+				<p>{{ item.NAME }}</p>
+				<span>{{ item.VALUE }}</span>
+			</li>
+		{% endfor %}
+	</ul>
 {% endif %}
 <p>
-    {{ result.PREVIEW_TEXT }}
+	{{ result.PREVIEW_TEXT }}
 </p>
 </div>
 <picture class="works-detail__image">
-    <img src="{{ result.DETAIL_PICTURE.SRC }}" alt="">
+	<img src="{{ result.DETAIL_PICTURE.SRC }}" alt="">
 </picture>
 </div>
 
 <div class="works-detail__slider-container">
-    <div class="works-detail__bg-text">Good Work</div>
-    {% if result.GALLERY > 0 %}
-        <div class="works-detail__slider swiper-container">
-            <div class="swiper-wrapper">
-                {% for item in result.GALLERY %}
-                    <div class="swiper-slide works-detail__slider-item">
-                        <a href="{{ item.SRC }}" data-fancybox="gallery">
-                            <span></span>
-                            <img src="{{ item.SRC }}" alt="">
-                        </a>
-                    </div>
-                {% endfor %}
-            </div>
-            <div class="works-detail__slider-bottom">
-                <div class="works-detail__controls">
-                    <div class="swiper-button-prev button button-control button-control-prev works-detail__control">
-                        <span class="icon icon-arrow"></span>Назад
-                    </div>
-                    <div class="swiper-button-next button button-control button-control-next works-detail__control">
-                        Вперед<span class=" icon icon-arrow"></span></div>
-                </div>
-                <p>
-                    {{ result.DETAIL_TEXT }}
-                </p>
-            </div>
-        </div>
-    {% endif %}
+	<div class="works-detail__bg-text">Good Work</div>
+	{% if result.GALLERY > 0 %}
+		<div class="works-detail__slider swiper-container">
+			<div class="swiper-wrapper">
+				{% for item in result.GALLERY %}
+					<div class="swiper-slide works-detail__slider-item">
+						<a href="{{ item.SRC }}" data-fancybox="gallery">
+							<span></span>
+							<img src="{{ item.THUMB }}" alt="">
+						</a>
+					</div>
+				{% endfor %}
+			</div>
+			<div class="works-detail__slider-bottom">
+				<div class="works-detail__controls">
+					<div class="swiper-button-prev button button-control button-control-prev works-detail__control">
+						<span class="icon icon-arrow"></span>Назад
+					</div>
+					<div class="swiper-button-next button button-control button-control-next works-detail__control">
+						Вперед<span class=" icon icon-arrow"></span>
+					</div>
+				</div>
+				<p>
+					{{ result.DETAIL_TEXT }}
+				</p>
+			</div>
+		</div>
+	{% endif %}
 </div>

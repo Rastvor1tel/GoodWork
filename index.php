@@ -129,68 +129,25 @@ $APPLICATION->IncludeComponent(
 		"MESSAGE_404"               => ""
 	]
 );
-?>
 
-	<section class="reviews">
-		<div class="container reviews__wrapper">
-			<div class="reviews__header h1">Отзывы</div>
-			<div class="reviews__slider swiper-container">
-				<div class="swiper-wrapper">
-					<div class="reviews__slider_item swiper-slide">
-						<div class="reviews__slider_info">
-							<div class="reviews__slider_header">
-								<div class="reviews__slider_name h4">Александр Иванов</div>
-								<div class="reviews__slider_date">20.09.2019</div>
-							</div>
-							<div class="reviews__slider_text">Строительство дома ответственная задача, особенно когда
-								строишь сруб. Кровля имеет сложную форму и ряд особенностей, связанных со скошенными
-								частями скатов. Стропильную конструкцию собирали те же плотники, что и делали сруб.
-								Проектировщик, который выезжал на замер кровли, сразу на месте подсказал мне, какие ...
-							</div>
-						</div>
-						<a href="#" class="reviews__slider_link button button-readmore">подробнее<span class="icon icon-arrow"></span></a>
-					</div>
-					<div class="reviews__slider_item swiper-slide">
-						<a href="<?= SITE_TEMPLATE_PATH ?>/assets/images/reviews-thumb.png" data-fancybox class="reviews__slider_image"><img src="<?= SITE_TEMPLATE_PATH ?>/assets/images/reviews-thumb.png" alt=""></a>
-						<div class="reviews__slider_info">
-							<div class="reviews__slider_header">
-								<div class="reviews__slider_name h4">ООО “Кровля”</div>
-								<div class="reviews__slider_date">20.09.2019</div>
-							</div>
-							<div class="reviews__slider_text">Строительство дома ответственная задача, особенно когда
-								строишь сруб. Кровля имеет сложную форму и ряд особенностей, связанных со скошенными
-								частями скатов. Стропильную ...
-							</div>
-						</div>
-						<a href="#" class="reviews__slider_link button button-readmore">подробнее<span class="icon icon-arrow"></span></a>
-					</div>
-					<div class="reviews__slider_item swiper-slide">
-						<div class="reviews__slider_info">
-							<div class="reviews__slider_header">
-								<div class="reviews__slider_name h4">Александр Иванов</div>
-								<div class="reviews__slider_date">20.09.2019</div>
-							</div>
-							<div class="reviews__slider_text">Строительство дома ответственная задача, особенно когда
-								строишь сруб. Кровля имеет сложную форму и ряд особенностей, связанных со скошенными
-								частями скатов. Стропильную конструкцию собирали те же плотники, что и делали сруб.
-								Проектировщик, который выезжал на замер кровли, сразу на месте подсказал мне, какие ...
-							</div>
-						</div>
-						<a href="#" class="reviews__slider_link button button-readmore">подробнее<span class="icon icon-arrow"></span></a>
-					</div>
-				</div>
-			</div>
-			<div class="reviews__controls">
-				<div class="swiper-button-prev button button-control button-control-prev reviews__control">
-					<span class="icon icon-arrow"></span>Назад
-				</div>
-				<div class="swiper-button-next button button-control button-control-next reviews__control">
-					Вперед<span class=" icon icon-arrow"></span>
-				</div>
-			</div>
-		</div>
-	</section>
-<?php
+$APPLICATION->IncludeComponent(
+	"bitrix:news.line",
+	"indexReviews",
+	[
+		"IBLOCK_TYPE"  => "content",
+		"IBLOCKS"      => [10],
+		"NEWS_COUNT"   => 20,
+		"FIELD_CODE"   => ["NAME", "PREVIEW_PICTURE", "PREVIEW_TEXT", "DATE_ACTIVE_FROM"],
+		"SORT_BY1"     => "SORT",
+		"SORT_ORDER1"  => "ASC",
+		"SORT_BY2"     => "ID",
+		"SORT_ORDER2"  => "ASC",
+		"CACHE_TYPE"   => "A",
+		"CACHE_TIME"   => "300",
+		"CACHE_GROUPS" => "Y"
+	]
+);
+
 $APPLICATION->IncludeComponent(
 	"bitrix:news.line",
 	"indexPartners",

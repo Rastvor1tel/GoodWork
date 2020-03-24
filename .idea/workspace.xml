@@ -1,128 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9733ee2-6f04-479d-89c5-340fb216bdc1" name="Default Changelist" comment="Настроен второй уровень каталога">
-      <change afterPath="$PROJECT_DIR$/local/components/dial/iblock.filter/class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/dial/section.detail/class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/consult/result_modifier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/consult/template.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.detail/ourWork/result_modifier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.detail/ourWork/template.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/indexWorks/result_modifier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/indexWorks/template.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/ourWorks/template.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news/ourWorks/detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news/ourWorks/news.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/system.pagenavigation/.default/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/dial/iblock.filter/works/template.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/dial/section.detail/service/template.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/include/content/indexWorkText.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/.left.menu_ext.php" afterDir="false" />
+    <list default="true" id="d9733ee2-6f04-479d-89c5-340fb216bdc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexReviews/lang/ru/template.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexReviews/template.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/ourWorks/result_modifier.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/php_interface/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/php_interface/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.element/catalog/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.element/catalog/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.element/catalog/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.element/catalog/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.sections.top/serviceMain/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.sections.top/serviceMain/template.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section/catalog/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section/catalog/template.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/element.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/element.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/section.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/section.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/element.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/element.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/section.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/sections.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/sections.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/callback/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/callback/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/callback/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/callback/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/question/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/question/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/question/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/question/template.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/catalog/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/catalog/template.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.detail/ourWork/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.detail/ourWork/result_modifier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.detail/ourWork/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.detail/ourWork/template.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/ourWorks/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/ourWorks/template.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Goodwork-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Goodwork-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-300.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-300.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-300.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-500.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-500.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-500.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-700.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-700.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-700.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/card/brand-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/card/general-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/section-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/section-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/goodwork-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/goodwork.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/pin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/reviews-thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/service-index1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/service-index2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/service-index3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/service-index4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/services-detail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/slide1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works-index.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/js/app.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/js/bodyScrollLock.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/js/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/js/jquery.fancybox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/js/jquery.maskedinput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/js/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/include/template/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/include/template/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/goodwork/include/template/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/include/template/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/include/template/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/include/template/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/include/template/siteSettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/include/template/siteSettings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our_works/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/our_works/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,26 +64,26 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/local/templates/.default/components/bitrix/search.title" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Twig" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\news.line" />
+      <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\search.title" />
+      <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\news.list" />
+      <recent name="D:\dev\Projects\GoodWork\local\components\dial" />
+      <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\dial" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dev\Projects\GoodWork\local\templates\goodwork\assets" />
       <recent name="D:\dev\Projects\GoodWork\local\templates\goodwork\assets\css" />
       <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\dial\section.detail\service" />
       <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\catalog.sections.top" />
       <recent name="D:\dev\Projects\GoodWork\local\templates\goodwork" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\search.title" />
-      <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\news.list" />
-      <recent name="D:\dev\Projects\GoodWork\local\components\dial" />
-      <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\dial" />
-      <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\news" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -221,7 +116,9 @@
       <workItem from="1584134330311" duration="216000" />
       <workItem from="1584134711791" duration="897000" />
       <workItem from="1584200160376" duration="25476000" />
-      <workItem from="1584288626957" duration="34362000" />
+      <workItem from="1584288626957" duration="34629000" />
+      <workItem from="1584461591623" duration="314000" />
+      <workItem from="1585065023237" duration="6779000" />
     </task>
     <task id="LOCAL-00001" summary="Настроен второй уровень каталога">
       <created>1584221130385</created>
@@ -237,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584229127026</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Настроен сайт по первым макетам">
+      <created>1584330444499</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584330444499</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +165,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Настроен второй уровень каталога" />
-    <option name="LAST_COMMIT_MESSAGE" value="Настроен второй уровень каталога" />
+    <MESSAGE value="Настроен сайт по первым макетам" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настроен сайт по первым макетам" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="182" width="932" height="685" key="#Deployment" timestamp="1584203700810">
@@ -276,14 +181,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="731" y="357" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584130908157" />
-    <state x="583" y="36" key="CommitChangelistDialog2" timestamp="1584329849977">
+    <state x="583" y="36" key="CommitChangelistDialog2" timestamp="1584330433950">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="583" y="36" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1584329849977" />
+    <state x="583" y="36" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1584330433950" />
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1584212549459">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584212549459" />
+    <state x="49" y="-20" width="1736" height="866" maximized="true" key="DirDiffDialog" timestamp="1585069114931">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="49" y="-20" width="1736" height="866" maximized="true" key="DirDiffDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585069114931" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1584131173632">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -296,26 +205,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="608" y="342" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584321617612" />
-    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1584321633095">
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1585080225161">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584321633095" />
-    <state x="510" y="60" width="1270" height="941" key="SettingsEditor" timestamp="1584293537636">
+    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585080225161" />
+    <state x="160" y="49" width="1270" height="941" key="SettingsEditor" timestamp="1585080612310">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="510" y="60" width="1270" height="941" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1584293537636" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1584229133147">
+    <state x="160" y="49" width="1270" height="941" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1585080612310" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1584330453766">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1584229133147" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1584330453766" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1584212549459">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584212549459" />
-    <state x="636" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584288642361">
+    <state x="636" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584461903066">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="636" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584288642361" />
+    <state x="636" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584461903066" />
     <state x="485" y="170" width="956" height="731" key="find.popup" timestamp="1584326061207">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
