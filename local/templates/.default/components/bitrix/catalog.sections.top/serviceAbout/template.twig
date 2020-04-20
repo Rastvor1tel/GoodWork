@@ -1,0 +1,20 @@
+<p> Мы специализируемся на выполнении следующих работ:</p>
+{% if result.SECTIONS|length > 0 %}
+	<div class="about-page__services">
+		{% for item in result.SECTIONS %}
+			<div class="about-page__services-item">
+				<div class="about-page__services-text">
+					<span class="about-page__service_icon icon icon-{{ item.UF_ICON }}"></span>
+					<p>{{ item.NAME }}</p>
+				</div>
+				{% if item.ITEMS|length > 0 %}
+					<ul class="about-page__services-list">
+						{% for elem in item.ITEMS %}
+							<li>{{ elem.NAME }}</li>
+						{% endfor %}
+					</ul>
+				{% endif %}
+			</div>
+		{% endfor %}
+	</div>
+{% endif %}

@@ -94,7 +94,8 @@ $APPLICATION->IncludeComponent(
 		"CACHE_GROUPS" => "Y"
 	]
 );
-
+?>
+<?php
 $APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"indexWorks",
@@ -165,40 +166,8 @@ $APPLICATION->IncludeComponent(
 		"CACHE_GROUPS" => "Y"
 	]
 );
+
+require_once($_SERVER['DOCUMENT_ROOT'] . SITE_TEMPLATE_PATH . "/include/template/feedbackMap.php");
+
+require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php');
 ?>
-	<section class="feedback">
-		<div id="map" class="feedback__map"></div>
-		<div class="container feedback__container">
-			<div class="feedback__wrapper">
-				<?
-				$APPLICATION->IncludeComponent(
-					"bitrix:form.result.new",
-					"question",
-					[
-						"WEB_FORM_ID"            => 2,
-						"AJAX_MODE"              => "Y",
-						"AJAX_OPTION_JUMP"       => "N",
-						"AJAX_OPTION_SHADOW"     => "N",
-						"AJAX_OPTION_STYLE"      => "N",
-						"CACHE_TIME"             => "3600",
-						"CACHE_TYPE"             => "A",
-						"CHAIN_ITEM_LINK"        => "",
-						"CHAIN_ITEM_TEXT"        => "",
-						"EDIT_URL"               => "",
-						"IGNORE_CUSTOM_TEMPLATE" => "N",
-						"LIST_URL"               => "",
-						"SEF_MODE"               => "N",
-						"SUCCESS_URL"            => "",
-						"USE_EXTENDED_ERRORS"    => "N",
-						"VARIABLE_ALIASES"       => [
-							"WEB_FORM_ID" => "WEB_FORM_ID",
-							"RESULT_ID"   => "RESULT_ID"
-						],
-					],
-					false
-				);
-				?>
-			</div>
-		</div>
-	</section>
-<? require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php'); ?>

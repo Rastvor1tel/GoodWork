@@ -12,9 +12,11 @@
 	{{ result.PREVIEW_TEXT }}
 </p>
 </div>
+{% if result.DETAIL_PICTURE.SRC %}
 <picture class="works-detail__image">
 	<img src="{{ result.DETAIL_PICTURE.SRC }}" alt="">
 </picture>
+{% endif %}
 </div>
 
 <div class="works-detail__slider-container">

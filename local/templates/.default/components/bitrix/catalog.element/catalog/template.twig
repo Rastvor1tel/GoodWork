@@ -13,7 +13,11 @@
                             <p>{{ item.NAME }}</p>
                             <span>{{ item.VALUE }}</span>
                         </li>
-                    {% endfor %}
+                    {% endfor %}                
+                <li class="card__specifications-item">
+                            <p>Производитель</p>
+                            <span>{{ result.BRAND_NAME }}</span>
+                </li>
                 </ul>
             {% endif %}
             <p>
@@ -39,7 +43,7 @@
                     <div class="card__tab-item" id="tab-{{ loop.index }}">
                         <div class="card__tab-title h3">{{ tab.NAME }}®</div>
                         <div class="card__tab-wrapper">
-                            <div class="card-tab__parameters">
+                            {#<div class="card-tab__parameters">
                                 <div class="card-tab__parameters-color" style="background: #3488aa"></div>
                                 {% if tab.PROPS.CHARACT|length > 0 %}
                                     <ul class="card-tab__parameters-list">
@@ -55,13 +59,19 @@
                                     <span></span>
                                     <p>Самая широкая цветовая гамма</p>
                                 </div>
-                            </div>
-                            {% if tab.PROPS.COLORS|length > 0 %}
+                            </div>#}
+                            {% if tab.PROPS.COLOR_CODES|length > 0 or tab.PROPS.COLOR_IMAGES|length > 0 %}
                                 <div class="card-tab__colors-list">
                                     <div class="card-tab__colors-wrap">
-                                        {% for color in tab.PROPS.COLORS %}
+                                        {% for color in tab.PROPS.COLOR_CODES %}
                                             <div class="card-tab__colors-item">
                                                 <div class="card-tab__colors-code" style="background: {{ color.VALUE }}"></div>
+                                                <div class="card-tab__colors-title h3">{{ color.NAME }}</div>
+                                            </div>
+                                        {% endfor %}
+                                        {% for color in tab.PROPS.COLOR_IMAGES %}
+                                            <div class="card-tab__colors-item">
+                                                <div class="card-tab__colors-code" style="background: url({{ color.VALUE }})"></div>
                                                 <div class="card-tab__colors-title h3">{{ color.NAME }}</div>
                                             </div>
                                         {% endfor %}

@@ -1,0 +1,31 @@
+{% if result.ITEMS|length > 0 %}
+	<section class="news">
+		<div class="news__wrapper">
+			<div class="news__top">
+				<div class="news__header h1">Новости</div>
+				<div class="news__controls">
+					<div class="swiper-button-prev button button-control button-control-prev news__control"><span class="icon icon-arrow"></span>Назад</div>
+					<div class="swiper-button-next button button-control button-control-next news__control">Вперед<span class=" icon icon-arrow"></span></div>
+				</div>
+			</div>
+			<div class="news__slider swiper-container">
+				<div class="swiper-wrapper">
+					{% for item in result.ITEMS %}
+						<div class="news__slider-item swiper-slide">
+							<picture class="news__slider-image">
+								<a href="{{ item.DETAIL_PAGE_URL }}">
+									<img src="{{ item.PICTURE }}" alt="">
+								</a>
+							</picture>
+							<div class="news__slider-info">
+								<div class="news__slider-title h3">{{ item.NAME }}</div>
+								<p>{{ item.PREVIEW_TEXT }}</p>
+								<a href="{{ item.DETAIL_PAGE_URL }}" class="news__slider-link button button-readmore">подробнее<span class="icon icon-arrow"></span></a>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</section>
+{% endif %}

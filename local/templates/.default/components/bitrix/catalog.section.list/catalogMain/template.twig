@@ -2,7 +2,7 @@
 	<div class="catalog-inner">
 		{% for section in result.SECTIONS %}
 			<div class="catalog-inner__section">
-				<div class="catalog-inner__subheader h2">{{ section.NAME }}</div>
+				<a href="{{ section.SECTION_PAGE_URL }}" class="catalog-inner__subheader h2">{{ section.NAME }}</a>
 				{% if section.SUBSECTIONS|length > 0 %}
 					<div class="catalog-inner__wrap">
 						{% for item in section.SUBSECTIONS %}

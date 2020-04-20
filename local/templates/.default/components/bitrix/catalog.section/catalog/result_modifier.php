@@ -3,7 +3,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 
 function sectionSort($a, $b) {
 	if ($a["SORT"] == $b["SORT"]) {
-		return ($a["ID"] < $b["ID"]) ? -1 : 1;
+		return ($a["NAME"] < $b["NAME"]) ? -1 : 1;
 	}
 	return ($a["SORT"] < $b["SORT"]) ? -1 : 1;
 }
@@ -33,7 +33,12 @@ foreach ($arResult["ITEMS"] as $arItem) {
 		}
 		$item["CHARACT"] = $arCharact;
 	}
+	if ($arItem["PROPERTIES"]["BRAND"]["VALUE"]) {
+		$arBrand = CIBlockElement::GetByID($item["PROPERTIES"]["BRAND"]["VALUE"])->Fetch();
+		$item["BRAND"] = $arBrand["NAME"];
+	}
 	$result[$arItem["~IBLOCK_SECTION_ID"]]["ITEMS"][] = $item;
+	
 }
 
 usort($result, 'sectionSort');

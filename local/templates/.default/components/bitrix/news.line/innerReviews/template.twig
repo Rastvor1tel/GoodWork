@@ -1,0 +1,22 @@
+{% if result.ITEMS|length > 0 %}
+	<section class="reviews">
+		<div class="container reviews__wrapper">
+			<div class="reviews-inner__slider ">
+					{% for item in result.ITEMS %}
+						<div class="reviews__slider_item">
+							{% if item.PREVIEW_PICTURE.SRC %}
+								<a href="{{ item.PREVIEW_PICTURE.SRC }}" data-fancybox class="reviews__slider_image"><img src="{{ item.PREVIEW_PICTURE.SRC }}" alt=""></a>
+							{% endif %}
+							<div class="reviews__slider_info">
+								<div class="reviews__slider_header">
+									<div class="reviews__slider_name h4">{{ item.NAME }}</div>
+									<div class="reviews__slider_date">{{ item.DATE_ACTIVE_FROM }}</div>
+								</div>
+								<div class="reviews__slider_text">{{ item.PREVIEW_TEXT }}</div>
+							</div>
+						</div>
+					{% endfor %}
+			</div>
+		</div>
+	</section>
+{% endif %}

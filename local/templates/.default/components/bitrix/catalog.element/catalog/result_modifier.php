@@ -4,8 +4,8 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
 if ($arResult["PROPERTIES"]["BRAND"]["VALUE"]) {
 	$arBrand = CIBlockElement::GetByID($arResult["PROPERTIES"]["BRAND"]["VALUE"])->Fetch();
 	$arResult["BRAND"] = CFile::ResizeImageGet($arBrand["PREVIEW_PICTURE"], ['width' => 220, 'height' => 80], BX_RESIZE_IMAGE_PROPORTIONAL, true)["src"];
+	$arResult["BRAND_NAME"] = $arBrand["NAME"];
 }
-
 if ($arResult["PROPERTIES"]["COVER"]["VALUE"]) {
 	$covers = [];
 	$arFilter = [
@@ -18,7 +18,7 @@ if ($arResult["PROPERTIES"]["COVER"]["VALUE"]) {
 		"NAME",
 		"PREVIEW_PICTURE",
 		"PROPERTY_CHARACT",
-		"PROPRTY_COLORS"
+		"PROPERTY_COLOR_CODES"
 	];
 	$rsCovers = CIBlockElement::GetList([], $arFilter, false, false, $arSelect);
 	while ($ob = $rsCovers->GetNextElement()) {

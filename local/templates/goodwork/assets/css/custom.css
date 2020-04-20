@@ -16,10 +16,60 @@
     margin-bottom: 12px;
 }
 
+.feedback {
+    margin-top: 190px;
+}
+
+.partners {
+    margin: 100px 0 -90px;
+}
+
+.header__nav_link.active {
+    color: #ef9300;
+    text-decoration: none;
+}
+
+.card__specifications-item span {
+    padding-right: 0;
+}
+
+.card__image-general {
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.catalog-inner__preview-image {
+    height: 225px;
+}
+
+.catalog-inner__preview-image img {
+    height: auto;
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.about-page__service_icon {
+    font-size: 30px;
+    margin-right: 24px;
+}
+
+.certificates__slider-image img, .news__slider-image img {
+    height: auto;
+}
+.card-tab__colors-list {
+    width: 100%;
+}
+
+.card-tab__colors-item {
+    width: calc(100% / 5 - 30px);
+}
+
 @media screen  and (max-width: 1024px) {
     .services-detail {
         flex-direction: column;
     }
+
     .sidebar-open {
         max-width: 200px;
     }

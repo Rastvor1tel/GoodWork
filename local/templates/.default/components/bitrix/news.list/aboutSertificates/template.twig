@@ -1,0 +1,26 @@
+{% if result.ITEMS|length > 0 %}
+<section class="certificates">
+	<div class="certificates__wrapper">
+		<div class="certificates__top">
+			<div class="certificates__header h1">Сертификаты</div>
+			<div class="certificates__controls">
+				<div class="swiper-button-prev button button-control button-control-prev certificates__control"><span class="icon icon-arrow"></span>Назад</div>
+				<div class="swiper-button-next button button-control button-control-next certificates__control">Вперед<span class=" icon icon-arrow"></span></div>
+			</div>
+		</div>
+		<div class="certificates__slider swiper-container">
+			<div class="swiper-wrapper">
+				{% for item in result.ITEMS %}
+					<div class="certificates__slider-item swiper-slide">
+						<picture class="certificates__slider-image">
+							<a href="{{ item.PREVIEW_PICTURE.SRC }}" data-fancybox>
+								<img src="{{ item.PICTURE }}" alt="">
+							</a>
+						</picture>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>
+{% endif %}

@@ -4,7 +4,7 @@
 		<nav class="header__nav_wrap">
 			{% for item in result %}
 				<div class="header__nav_item">
-					<a href="{{ item.LINK }}" class="header__nav_link">{{ item.TEXT }}</a>
+					<a href="{{ item.LINK }}" class="header__nav_link{% if item.SELECTED %} active{% endif %}">{{ item.TEXT }}</a>
 				</div>
 			{% endfor %}
 		</nav>

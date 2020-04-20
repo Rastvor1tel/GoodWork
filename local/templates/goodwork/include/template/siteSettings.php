@@ -17,7 +17,13 @@ $siteSettings = [
 		"whatsapp" => Option::get("grain.customsettings","whatsapp"),
 		"facebook" => Option::get("grain.customsettings","facebook"),
 		"instagram" => Option::get("grain.customsettings","instagram"),
+	],
+	"about" => [
+		"photo" => Option::get("grain.customsettings","photo"),
+		"position" => Option::get("grain.customsettings","position"),
+		"name" => Option::get("grain.customsettings","name"),
 	]
+
 ];
 
 $APPLICATION->ShowPanel();
