@@ -1,0 +1,20 @@
+{% if (result.isFormNote != "Y") %}
+	{{ result.FORM_HEADER }}
+	<div class="popup__form_header h1">{{ result.FORM_TITLE }}</div>
+	{% if (result.isFormErrors == "Y") %}
+		{{ result.FORM_ERRORS_TEXT }}
+	{% endif %}
+	<div class="popup__form_text form__text">{{ result.FORM_DESCRIPTION }}</div>
+	<div class="popup__form_fields form__fields">
+		<input name="form_text_7" type="text" class="input input-text popup__form_input form__input" value="{{ result.arrVALUES.form_text_7 }}" placeholder="Имя">
+		<input name="form_text_8" type="text" class="input input-text popup__form_input form__input js-phone-mask" value="{{ result.arrVALUES.form_text_8 }}" placeholder="Телефон*" required>
+	</div>
+	<div class="popup__form_policy form__policy">
+		Нажимая кнопку “Отправить”, Вы соглашаетесь на обработку персональных данных, указанных в <a href="{{ result.POLICY_LINK }}">политике конфиденциальности</a>
+	</div>
+	<input type="submit" name="web_form_submit" class="button button-black popup__form_button form__button" value="Отправить">
+	{{ result.FORM_FOOTER }}
+{% else %}
+	<div class="popup__form_header h1">Заказ</div>
+	<div class="popup__form_text form__text">{{ result.FORM_NOTE }}</div>
+{% endif %}

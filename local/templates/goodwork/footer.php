@@ -54,6 +54,40 @@ require_once($_SERVER['DOCUMENT_ROOT'] . SITE_TEMPLATE_PATH . "/include/template
 		</div>
 	</div>
 </div>
+<div class="order__popup popup js-order">
+	<div class="popup__wrapper">
+	<?$APPLICATION->IncludeComponent(
+	"bitrix:form.result.new",
+	"order",
+	[
+				"WEB_FORM_ID" => 4,
+				"AJAX_MODE" => "Y",
+				"AJAX_OPTION_JUMP" => "N",
+				"AJAX_OPTION_SHADOW" => "N",
+				"AJAX_OPTION_STYLE" => "N",
+				"CACHE_TIME" => "3600",
+				"CACHE_TYPE" => "A",
+				"CHAIN_ITEM_LINK" => "",
+				"CHAIN_ITEM_TEXT" => "",
+				"EDIT_URL" => "",
+				"IGNORE_CUSTOM_TEMPLATE" => "N",
+				"LIST_URL" => "",
+				"SEF_MODE" => "N",
+				"SUCCESS_URL" => "",
+				"USE_EXTENDED_ERRORS" => "N",
+				"VARIABLE_ALIASES" => [
+					"WEB_FORM_ID" => "WEB_FORM_ID",
+					"RESULT_ID" => "RESULT_ID"
+				],
+			],
+			false
+		);
+		?>
+		<div class="popup__close js-popup-close">
+			<div class="popup__close_inner"></div>
+		</div>
+	</div>
+</div>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};

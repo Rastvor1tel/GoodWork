@@ -2,382 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9733ee2-6f04-479d-89c5-340fb216bdc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/local/components/dial/menu.section.elements/.description.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/dial/menu.section.elements/.parameters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/dial/menu.section.elements/component.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/dial/menu.section.elements/lang/ru/.description.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/dial/menu.section.elements/lang/ru/.parameters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.sections.top/serviceAbout/template.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/innerReviews/lang/ru/template.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/innerReviews/template.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/aboutNews/result_modifier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/aboutNews/template.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/aboutSertificates/result_modifier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/aboutSertificates/template.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Goodwork-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Goodwork-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-300.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-500.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-500.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/Oswald-500.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-700.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-700.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/fonts/PTSans-700.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/about/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/about/2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/about/3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/about/4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-index6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog-inner9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/card/brand-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/card/general-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/grand-line/section-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/catalog/metall-profile/section-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/certificates/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/certificates/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/director.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/goodwork-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/goodwork.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/logo6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/news/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/news/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/news/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/pin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/reviews-thumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/service-index1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/service-index2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/service-index3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/service-index4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/services-detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/slide1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works-index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works/detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works/slider/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works/slider/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works/slider/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works/slider/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works/slider/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works/slider/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works/slider/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/images/works/slider/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/app.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/bodyScrollLock.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/inputmask.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/jquery.fancybox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/swiper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/include/content/about.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/include/content/aboutTop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/include/template/feedbackMap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/templates/goodwork/template_styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/.section.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/.section.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/.section.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.access.php" beforeDir="false" afterPath="$PROJECT_DIR$/.access.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Akkord-_Finskaya-akkord_-Fokstrot_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atlantika.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Briks-_Modern_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sonata-_Finskaya-sonata_-Samba_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coll-3t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coll-Mansion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coll-ambient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coll-foxy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coll-jazzy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coll-katrilli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coll-kl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coll-rocky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forte-mini-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/komplekt-krovelnaya-lestnica Р±РѕСЂРіРµ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/order/result_modifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/order/template.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.detail/service/template.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Р¤Р°СЃР°РґРЅС‹Рµ Р»РµСЃС‚РЅРёС†С‹ Borge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/РІРµСЃС‚РµСЂРЅ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/РєР°РЅС‚СЂРё РєРѕРЅС‚РёРЅРµРЅС‚.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/РєР»Р°СЃСЃРёРє С„Р»Р°РјРµРЅРєРѕ С‚Р°РЅРіРѕ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/РњРѕСЃС‚РёРє Р‘РѕСЂРіРµ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/РґР¶Р°Р·.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/С‚СЂРёРѕ.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.main.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/.main.menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/.section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/about/.section.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/.section.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts/.section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/contacts/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/classes/general/templating/BitrixTwigExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/classes/general/templating/BitrixTwigExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/classes/general/templating/TwigTemplateEngine.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/classes/general/templating/TwigTemplateEngine.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/include.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/include.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/lang/ru/install/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/lang/ru/install/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/lang/ru/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/lang/ru/options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Autoloader.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Autoloader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Compiler.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Compiler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/CompilerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/CompilerInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Environment.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Environment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Error.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Error.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Error/Loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Error/Loader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Error/Runtime.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Error/Runtime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Error/Syntax.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Error/Syntax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/ExistsLoaderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/ExistsLoaderInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/ExpressionParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/ExpressionParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/Core.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/Debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/Debug.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/Escaper.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/Escaper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/Optimizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/Optimizer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/Sandbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/Sandbox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/Staging.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/Staging.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/StringLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Extension/StringLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/ExtensionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/ExtensionInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Filter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Filter/Function.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Filter/Function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Filter/Method.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Filter/Method.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Filter/Node.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Filter/Node.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/FilterCallableInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/FilterCallableInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/FilterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/FilterInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Function.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Function/Function.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Function/Function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Function/Method.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Function/Method.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Function/Node.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Function/Node.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/FunctionCallableInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/FunctionCallableInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/FunctionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/FunctionInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Lexer.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Lexer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/LexerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/LexerInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Loader/Array.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Loader/Array.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Loader/Chain.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Loader/Chain.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Loader/Filesystem.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Loader/Filesystem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Loader/String.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Loader/String.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/LoaderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/LoaderInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Markup.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Markup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/AutoEscape.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/AutoEscape.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Block.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Block.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/BlockReference.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/BlockReference.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Body.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Body.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Do.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Do.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Embed.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Embed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Array.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Array.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/AssignName.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/AssignName.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Add.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/And.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/And.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/BitwiseAnd.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/BitwiseAnd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/BitwiseOr.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/BitwiseOr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/BitwiseXor.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/BitwiseXor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Concat.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Concat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Div.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Div.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/EndsWith.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/EndsWith.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Equal.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Equal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/FloorDiv.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/FloorDiv.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Greater.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Greater.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/GreaterEqual.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/GreaterEqual.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/In.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/In.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Less.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Less.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/LessEqual.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/LessEqual.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Matches.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Matches.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Mod.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Mod.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Mul.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Mul.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/NotEqual.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/NotEqual.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/NotIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/NotIn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Or.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Or.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Power.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Power.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Range.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Range.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/StartsWith.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/StartsWith.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Sub.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Binary/Sub.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/BlockReference.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/BlockReference.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Call.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Call.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Conditional.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Conditional.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Constant.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Constant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/ExtensionReference.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/ExtensionReference.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Filter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Filter/Default.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Filter/Default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Function.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/GetAttr.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/GetAttr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/MethodCall.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/MethodCall.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Name.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Name.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Parent.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Parent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/TempName.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/TempName.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Constant.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Constant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Defined.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Defined.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Divisibleby.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Divisibleby.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Even.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Even.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Null.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Null.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Odd.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Odd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Sameas.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Test/Sameas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Unary.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Unary.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Unary/Neg.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Unary/Neg.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Unary/Not.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Unary/Not.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Unary/Pos.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Expression/Unary/Pos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Flush.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Flush.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/For.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/For.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/ForLoop.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/ForLoop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/If.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/If.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Import.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Import.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Include.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Include.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Macro.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Macro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Print.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Print.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Sandbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Sandbox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/SandboxedModule.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/SandboxedModule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/SandboxedPrint.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/SandboxedPrint.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Set.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Set.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/SetTemp.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/SetTemp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Spaceless.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Spaceless.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Text.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Node/Text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeOutputInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeOutputInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeTraverser.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeTraverser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeVisitor/Escaper.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeVisitor/Escaper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeVisitor/Optimizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeVisitor/Optimizer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeVisitor/SafeAnalysis.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeVisitor/SafeAnalysis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeVisitor/Sandbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeVisitor/Sandbox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeVisitorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/NodeVisitorInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Parser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/ParserInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/ParserInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Sandbox/SecurityError.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Sandbox/SecurityError.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Sandbox/SecurityPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Sandbox/SecurityPolicy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Sandbox/SecurityPolicyInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Sandbox/SecurityPolicyInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/SimpleFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/SimpleFilter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/SimpleFunction.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/SimpleFunction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/SimpleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/SimpleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TemplateInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TemplateInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Test/Function.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Test/Function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Test/IntegrationTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Test/IntegrationTestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Test/Method.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Test/Method.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Test/Node.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Test/Node.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Test/NodeTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Test/NodeTestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TestCallableInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TestCallableInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TestInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TestInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Token.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/Token.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/AutoEscape.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/AutoEscape.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Block.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Block.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Do.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Do.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Embed.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Embed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Extends.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Extends.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Filter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Flush.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Flush.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/For.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/For.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/From.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/From.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/If.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/If.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Import.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Import.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Include.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Include.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Macro.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Macro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Sandbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Sandbox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Set.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Set.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Spaceless.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Spaceless.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Use.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParser/Use.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParserBroker.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParserBroker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParserBrokerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParserBrokerInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParserInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenParserInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/modules/htc.twigintegrationmodule/vendor/Twig/TokenStream.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/php_interface/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/php_interface/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/breadcrumb/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/breadcrumb/.default/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.element/catalog/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.element/catalog/result_modifier.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.element/catalog/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.element/catalog/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/catalogInner/lang/ru/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/catalogInner/lang/ru/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/catalogInner/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/catalogInner/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/catalogMain/lang/ru/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/catalogMain/lang/ru/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/catalogMain/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/catalogMain/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/catalogMain/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/catalogMain/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/indexSection/lang/ru/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/indexSection/lang/ru/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/indexSection/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/indexSection/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/indexServices/lang/ru/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/indexServices/lang/ru/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/indexServices/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section.list/indexServices/template.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section/catalog/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section/catalog/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section/catalog/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.section/catalog/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.sections.top/serviceMain/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog.sections.top/serviceMain/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/element.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/element.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/section.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/sections.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/catalog/sections.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/element.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/element.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/section.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/sections.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/catalog/services/sections.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/callback/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/callback/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/callback/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/callback/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/consult/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/consult/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/consult/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/consult/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/question/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/question/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/question/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/form.result.new/question/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/bottom/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/bottom/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/catalog/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/catalog/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/top/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/menu/top/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.detail/ourWork/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.detail/ourWork/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexAbout/lang/ru/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexAbout/lang/ru/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexAbout/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexAbout/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexPartners/lang/ru/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexPartners/lang/ru/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexPartners/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexPartners/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexReviews/lang/ru/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexReviews/lang/ru/template.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexReviews/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.line/indexReviews/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/mainSlider/lang/ru/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/mainSlider/lang/ru/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/mainSlider/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/mainSlider/template.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news/ourWorks/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news/ourWorks/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news/ourWorks/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news/ourWorks/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/aboutNews/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/aboutNews/template.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/aboutSertificates/template.twig" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.list/aboutSertificates/template.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/description.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/description.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/js/app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/app.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/assets/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local/templates/goodwork/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/include/content/indexAbout.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/include/content/indexAbout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/include/content/serviceText.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/include/content/serviceText.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/include/template/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/include/template/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/include/template/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/include/template/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/include/template/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/include/template/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/include/template/siteSettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/include/template/siteSettings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/lang/ru/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/lang/ru/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/lang/ru/include/template/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/lang/ru/include/template/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our_works/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/our_works/.section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our_works/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/our_works/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/.left.menu_ext.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/.left.menu_ext.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/.section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urlrewrite.php" beforeDir="false" afterPath="$PROJECT_DIR$/urlrewrite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/include/content/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/templates/goodwork/include/template/feedbackMap.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/goodwork/include/template/feedbackMap.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,7 +89,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/local/components/dial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/local/templates/.default/components/bitrix/news.detail" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -432,18 +97,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Dev\Projects\GoodWork\local\templates\goodwork\assets\js" />
       <recent name="D:\dev\Projects\GoodWork\local\templates\goodwork\assets" />
       <recent name="D:\dev\Projects\GoodWork\local\templates\goodwork\assets\css" />
       <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\dial\section.detail\service" />
       <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\catalog.sections.top" />
-      <recent name="D:\dev\Projects\GoodWork\local\templates\goodwork" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Dev\Projects\GoodWork\local\templates\.default\components\bitrix\news.detail" />
       <recent name="E:\Dev\Projects\GoodWork\local\components\dial" />
       <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\news.line" />
       <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\search.title" />
       <recent name="D:\dev\Projects\GoodWork\local\templates\.default\components\bitrix\news.list" />
-      <recent name="D:\dev\Projects\GoodWork\local\components\dial" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -483,7 +148,11 @@
       <workItem from="1587117975380" duration="973000" />
       <workItem from="1587119100424" duration="5063000" />
       <workItem from="1587378144242" duration="3360000" />
-      <workItem from="1587388164896" duration="5943000" />
+      <workItem from="1587388164896" duration="6236000" />
+      <workItem from="1587550505561" duration="791000" />
+      <workItem from="1587976011655" duration="1425000" />
+      <workItem from="1587978544853" duration="5264000" />
+      <workItem from="1588085064036" duration="2117000" />
     </task>
     <task id="LOCAL-00001" summary="Настроен второй уровень каталога">
       <created>1584221130385</created>
@@ -506,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584330444499</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Правки. Создан компонет меню с элементами.">
+      <created>1587394810219</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587394810219</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +207,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Настроен второй уровень каталога" />
     <MESSAGE value="Настроен сайт по первым макетам" />
-    <option name="LAST_COMMIT_MESSAGE" value="Настроен сайт по первым макетам" />
+    <MESSAGE value="Правки. Создан компонет меню с элементами." />
+    <option name="LAST_COMMIT_MESSAGE" value="Правки. Создан компонет меню с элементами." />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="182" width="932" height="685" key="#Deployment" timestamp="1584203700810">
@@ -546,18 +223,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="731" y="357" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584130908157" />
-    <state x="583" y="36" key="CommitChangelistDialog2" timestamp="1587394708675">
+    <state x="583" y="36" key="CommitChangelistDialog2" timestamp="1587394801716">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="583" y="36" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587394708675" />
+    <state x="583" y="36" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1587394801716" />
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1584212549459">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584212549459" />
-    <state x="49" y="-20" width="1736" height="866" maximized="true" key="DirDiffDialog" timestamp="1585069114931">
+    <state x="49" y="-20" width="1736" height="866" maximized="true" key="DirDiffDialog" timestamp="1588085307824">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="49" y="-20" width="1736" height="866" maximized="true" key="DirDiffDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585069114931" />
+    <state x="49" y="-20" width="1736" height="866" maximized="true" key="DirDiffDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1588085307824" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1587118719856">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -582,10 +259,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="160" y="49" width="1270" height="941" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1587118739867" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1585086449156">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1587394866391">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1585086449156" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1587394866391" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1584212549459">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

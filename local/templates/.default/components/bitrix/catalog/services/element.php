@@ -41,8 +41,8 @@ $this->setFrameMode(true);
 		<div class="catalog-inner__container">
 			<?php
 			$APPLICATION->IncludeComponent(
-				"bitrix:catalog.element",
-				"catalog",
+				"bitrix:news.detail",
+				"service",
 				[
 					'IBLOCK_TYPE'               => $arParams['IBLOCK_TYPE'],
 					'IBLOCK_ID'                 => $arParams['IBLOCK_ID'],

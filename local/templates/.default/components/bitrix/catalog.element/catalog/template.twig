@@ -1,94 +1,99 @@
 <div class="card">
-    <div class="card__top">
-        <picture class="card__image">
-            <img class="card__image-brand" src="{{ result.BRAND }}" alt="">
-            <img class="card__image-general" src="{{ result.DETAIL_PICTURE.SRC }}" alt="">
-        </picture>
-        <div class="card__specifications">
-            {% if result.CHARACT|length > 0 %}
-                <div class="card__specifications-title h3">технические характеристики</div>
-                <ul class="card__specifications-list">
-                    {% for item in result.CHARACT %}
-                        <li class="card__specifications-item">
-                            <p>{{ item.NAME }}</p>
-                            <span>{{ item.VALUE }}</span>
-                        </li>
-                    {% endfor %}                
-                <li class="card__specifications-item">
-                            <p>Производитель</p>
-                            <span>{{ result.BRAND_NAME }}</span>
-                </li>
-                </ul>
-            {% endif %}
-            <p>
-                {{ result.PREVIEW_TEXT }}
-            </p>
-            <a href="/our_works/" class="button button-orange">Наши работы</a>
-        </div>
-    </div>
-    {% if result.COVERS|length > 0 %}
-        <div class="catalog-inner__subheader h2">Покрытия</div>
+	<div class="card__top">
+		<picture class="card__image">
+			<img class="card__image-brand" src="{{ result.BRAND }}" alt="">
+			<img class="card__image-general" src="{{ result.DETAIL_PICTURE.SRC }}" alt="">
+		</picture>
+		<div class="card__specifications">
+			{% if result.CHARACT|length > 0 %}
+				<div class="card__specifications-title h3">технические характеристики</div>
+				<ul class="card__specifications-list">
+					{% for item in result.CHARACT %}
+						<li class="card__specifications-item">
+							<p>{{ item.NAME }}</p>
+							<span>{{ item.VALUE }}</span>
+						</li>
+					{% endfor %}
+					<li class="card__specifications-item">
+						<p>Производитель</p>
+						<span>{{ result.BRAND_NAME }}</span>
+					</li>
+				</ul>
+			{% endif %}
+			{% if result.PREVIEW_TEXT %}
+				<div class="card__description">
+					{{ result.PREVIEW_TEXT }}
+				</div>
+			{% endif %}
+			<div class="button__wrap">
+				<button type="button" class="button button-transparent js-order">Заказать</button>
+				<a href="/our_works/" class="button button-orange">Наши работы</a>
+			</div>
+		</div>
+	</div>
+	{% if result.COVERS|length > 0 %}
+		<div class="catalog-inner__subheader h2">Покрытия</div>
 
-        <div class="card__tabs">
-            <ul class="card-tabs__links">
-                {% for tab in result.COVERS %}
-                    <li class="card-tabs__links-item h3">
-                        <a href="#tab-{{ loop.index }}">{{ tab.NAME }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-            <div class="card__tab-list">
-                <div class="detail-background-text">Good Work</div>
-                {% for tab in result.COVERS %}
-                    <div class="card__tab-item" id="tab-{{ loop.index }}">
-                        <div class="card__tab-title h3">{{ tab.NAME }}®</div>
-                        <div class="card__tab-wrapper">
-                            {#<div class="card-tab__parameters">
-                                <div class="card-tab__parameters-color" style="background: #3488aa"></div>
-                                {% if tab.PROPS.CHARACT|length > 0 %}
-                                    <ul class="card-tab__parameters-list">
-                                        {% for param in tab.PROPS.CHARACT %}
-                                            <li class="card-tab__parameters-item">
-                                                <p>{{ param.NAME }}</p>
-                                                <span>{{ param.VALUE }}</span>
-                                            </li>
-                                        {% endfor %}
-                                    </ul>
-                                {% endif %}
-                                <div class="card-tab__parameters-gamma">
-                                    <span></span>
-                                    <p>Самая широкая цветовая гамма</p>
-                                </div>
-                            </div>#}
-                            {% if tab.PROPS.COLOR_CODES|length > 0 or tab.PROPS.COLOR_IMAGES|length > 0 %}
-                                <div class="card-tab__colors-list">
-                                    <div class="card-tab__colors-wrap">
-                                        {% for color in tab.PROPS.COLOR_CODES %}
-                                            <div class="card-tab__colors-item">
-                                                <div class="card-tab__colors-code" style="background: {{ color.VALUE }}"></div>
-                                                <div class="card-tab__colors-title h3">{{ color.NAME }}</div>
-                                            </div>
-                                        {% endfor %}
-                                        {% for color in tab.PROPS.COLOR_IMAGES %}
-                                            <div class="card-tab__colors-item">
-                                                <div class="card-tab__colors-code" style="background: url({{ color.VALUE }})"></div>
-                                                <div class="card-tab__colors-title h3">{{ color.NAME }}</div>
-                                            </div>
-                                        {% endfor %}
-                                    </div>
-                                </div>
-                            {% endif %}
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    {% endif %}
-    <div class="content">
-        {{ result.DETAIL_TEXT }}
-    </div>
-    <div class="card__clarification">
-        <p>* На сайте указаны розничные цены. Предусматриваются условия скидок, в зависимости от объёма. За
-            информацией обращайтесь к менеджерам компании.</p>
-    </div>
+		<div class="card__tabs">
+			<ul class="card-tabs__links">
+				{% for tab in result.COVERS %}
+					<li class="card-tabs__links-item h3">
+						<a href="#tab-{{ loop.index }}">{{ tab.NAME }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+			<div class="card__tab-list">
+				<div class="detail-background-text">Good Work</div>
+				{% for tab in result.COVERS %}
+					<div class="card__tab-item" id="tab-{{ loop.index }}">
+						<div class="card__tab-title h3">{{ tab.NAME }}®</div>
+						<div class="card__tab-wrapper">
+							{#<div class="card-tab__parameters">
+								<div class="card-tab__parameters-color" style="background: #3488aa"></div>
+								{% if tab.PROPS.CHARACT|length > 0 %}
+									<ul class="card-tab__parameters-list">
+										{% for param in tab.PROPS.CHARACT %}
+											<li class="card-tab__parameters-item">
+												<p>{{ param.NAME }}</p>
+												<span>{{ param.VALUE }}</span>
+											</li>
+										{% endfor %}
+									</ul>
+								{% endif %}
+								<div class="card-tab__parameters-gamma">
+									<span></span>
+									<p>Самая широкая цветовая гамма</p>
+								</div>
+							</div>#}
+							{% if tab.PROPS.COLOR_CODES|length > 0 or tab.PROPS.COLOR_IMAGES|length > 0 %}
+								<div class="card-tab__colors-list">
+									<div class="card-tab__colors-wrap">
+										{% for color in tab.PROPS.COLOR_CODES %}
+											<div class="card-tab__colors-item">
+												<div class="card-tab__colors-code" style="background: {{ color.VALUE }}"></div>
+												<div class="card-tab__colors-title h3">{{ color.NAME }}</div>
+											</div>
+										{% endfor %}
+										{% for color in tab.PROPS.COLOR_IMAGES %}
+											<div class="card-tab__colors-item">
+												<div class="card-tab__colors-code" style="background: url({{ color.VALUE }})"></div>
+												<div class="card-tab__colors-title h3">{{ color.NAME }}</div>
+											</div>
+										{% endfor %}
+									</div>
+								</div>
+							{% endif %}
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	{% endif %}
+	<div class="content">
+		{{ result.DETAIL_TEXT }}
+	</div>
+	<div class="card__clarification">
+		<p>* На сайте указаны розничные цены. Предусматриваются условия скидок, в зависимости от объёма. За
+		   информацией обращайтесь к менеджерам компании.</p>
+	</div>
 </div>
