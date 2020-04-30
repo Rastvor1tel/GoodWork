@@ -1,0 +1,67 @@
+User-agent: *               # правила дл€ всех роботов
+Disallow: /cgi-bin          # папка на хостинге
+Disallow: /bitrix/          # папка с системными файлами битрикса
+Disallow: *bitrix_*=        # GET-запросы битрикса
+Disallow: /local/           # папка с системными файлами битрикса
+Disallow: /*index.php$      # дубли страниц index.php
+Disallow: /auth/            # авторизаци€
+Disallow: *auth=            # авторизаци€
+Disallow: /personal/        # личный кабинет
+Disallow: *register=        # регистраци€
+Disallow: *forgot_password= # забыли пароль
+Disallow: *change_password= # изменить пароль
+Disallow: *login=           # логин
+Disallow: *logout=          # выход
+Disallow: */search/         # поиск
+Disallow: *action=          # действи€
+Disallow: *print=           # печать
+Disallow: *?new=Y           # нова€ страница
+Disallow: *?edit=           # редактирование
+Disallow: *?preview=        # предпросмотр
+Disallow: *backurl=         # трекбеки
+Disallow: *back_url=        # трекбеки
+Disallow: *back_url_admin=  # трекбеки
+Disallow: *captcha          # каптча
+Disallow: */feed            # все фиды
+Disallow: */rss             # rss фид
+Disallow: *?FILTER*=        # здесь и ниже различные попул€рные параметры фильтров
+Disallow: *?ei=
+Disallow: *?p=
+Disallow: *?q=
+Disallow: *?tags=
+Disallow: *B_ORDER=
+Disallow: *BRAND=
+Disallow: *CLEAR_CACHE=
+Disallow: *ELEMENT_ID=
+Disallow: *price_from=
+Disallow: *price_to=
+Disallow: *PROPERTY_TYPE=
+Disallow: *PROPERTY_WIDTH=
+Disallow: *PROPERTY_HEIGHT=
+Disallow: *PROPERTY_DIA=
+Disallow: *PROPERTY_OPENING_COUNT=
+Disallow: *PROPERTY_SELL_TYPE=
+Disallow: *PROPERTY_MAIN_TYPE=
+Disallow: *PROPERTY_PRICE[*]=
+Disallow: *S_LAST=
+Disallow: *SECTION_ID=
+Disallow: *SECTION[*]=
+Disallow: *SHOWALL=
+Disallow: *SHOW_ALL=
+Disallow: *SHOWBY=
+Disallow: *SORT=
+Disallow: *SPHRASE_ID=
+Disallow: *TYPE=
+Disallow: *utm*=            # ссылки с utm-метками
+Disallow: *openstat=        # ссылки с метками openstat
+Disallow: *from=            # ссылки с метками from
+Allow: */upload/            # открываем папку с файлами uploads
+Allow: /bitrix/*.js         # здесь и далее открываем дл€ индексации скрипты
+Allow: /bitrix/*.css
+Allow: /local/*.js
+Allow: /local/*.css
+Allow: /local/*.jpg
+Allow: /local/*.jpeg
+Allow: /local/*.png
+Allow: /local/*.gif
+Host: gwbuilder.ru

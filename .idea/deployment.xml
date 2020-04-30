@@ -5,11 +5,12 @@
       <paths name="dev">
         <serverdata>
           <mappings>
-            <mapping deploy="/www/goodwork.dev.dialtest.ru" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/www/gwbuilder.ru" local="$PROJECT_DIR$" web="/" />
           </mappings>
           <excludedPaths>
             <excludedPath path="/www/goodwork.dev.dialtest.ru/upload" />
             <excludedPath path="/www/goodwork.dev.dialtest.ru/bitrix" />
+            <excludedPath path="/www/gwbuilder.ru/bitrix" />
           </excludedPaths>
         </serverdata>
       </paths>
